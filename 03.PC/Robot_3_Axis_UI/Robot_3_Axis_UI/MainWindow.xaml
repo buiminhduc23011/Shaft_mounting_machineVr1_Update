@@ -1,0 +1,581 @@
+﻿<Window x:Class="Robot_3_Axis_UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Robot_3_Axis_UI"
+        xmlns:wpf="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Closing="Window_Closing"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        Title="Machine UI"
+        Height="1080"
+        Width="1920"
+        Icon="Images/icon_machine.png">
+
+    <Grid Margin="0,0,0,0">
+        <ScrollViewer HorizontalScrollBarVisibility="Hidden"
+                      VerticalScrollBarVisibility="Hidden">
+            <Grid>
+
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Grid Height="90"
+                              Width="270">
+                            <Label x:Name="lb_Name"
+                                   Foreground="Black"
+                                   FontSize="15"
+                                   FontStyle="Normal"
+                                   FontWeight="Bold"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Bottom"
+                                   FontFamily="Source Sans Pro" />
+                            <Image Source="Images/Logo.png"
+                                   Height="70"
+                                   HorizontalAlignment="Center"
+                                   Margin="0,0,0,20" />
+                        </Grid>
+                        <Grid Height="100"
+                              Width="1650">
+                            <Label Content="{DynamicResource lb_machine}"
+                                   Foreground="Black"
+                                   FontSize="70"
+                                   FontStyle="Normal"
+                                   FontWeight="Bold"
+                                   FontFamily="Source Sans Pro"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Top" />
+                            <StackPanel HorizontalAlignment="Right"
+                                        Width="150">
+                                <StackPanel Orientation="Horizontal">
+                                    <Image Source="Images/icon_language.png"
+                                           Width="20"></Image>
+                                    <Grid>
+                                        <ComboBox x:Name="LanguageComboBox"
+                                                  FontFamily="Source Sans Pro"
+                                                  HorizontalContentAlignment="Center"
+                                                  FontSize="15"
+                                                  FontWeight="Bold"
+                                                  Margin="5,0,0,0"
+                                                  BorderBrush="White"
+                                                  SelectionChanged="LanguageComboBox_SelectionChanged">
+                                            <ComboBoxItem Content="English"
+                                                          Tag="en.xaml" />
+                                            <ComboBoxItem Content="Vietnamese"
+                                                          Tag="vi.xaml" />
+                                        </ComboBox>
+                                    </Grid>
+
+                                </StackPanel>
+
+                                <Label Content="--/--/----"
+                                       x:Name="lb_Day"
+                                       Foreground="Black"
+                                       FontSize="15"
+                                       FontStyle="Normal"
+                                       FontWeight="Bold"
+                                       FontFamily="Source Sans Pro" />
+                                <Label Content="--:--:--"
+                                       x:Name="lb_Time"
+                                       Foreground="Black"
+                                       FontSize="15"
+                                       FontStyle="Normal"
+                                       FontWeight="Bold"
+                                       FontFamily="Source Sans Pro" />
+                                <Grid>
+                                    <Label Content="CPU:"
+                                           FontSize="13"
+                                           FontStyle="Normal"
+                                           FontFamily="Source Sans Pro"
+                                           VerticalAlignment="Center"></Label>
+                                    <Label x:Name="Per_CPU"
+                                           FontSize="13"
+                                           FontStyle="Normal"
+                                           FontFamily="Source Sans Pro"
+                                           Margin="40,0,0,0"
+                                           VerticalAlignment="Center"></Label>
+                                </Grid>
+                            </StackPanel>
+
+                        </Grid>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Grid Margin="0,0,0,0">
+                            <Border BorderBrush="#444654"
+                                    BorderThickness="2"
+                                    Width="250"
+                                    Height="925" />
+                            <StackPanel Margin="20,0,20,0">
+                                <Button Margin="0,10,0,0"
+                                        Content="{DynamicResource auto}"
+                                        FontSize="30"
+                                        FontWeight="Bold"
+                                        Width="230"
+                                        Height="80"
+                                        x:Name="bt_Auto"
+                                        Click="Auto_Click">
+                                </Button>
+
+                                <Button Margin="0,20,0,0"
+                                        x:Name="bt_Origin"
+                                        Content="{DynamicResource origin}"
+                                        FontSize="30"
+                                        FontWeight="Bold"
+                                        Width="230"
+                                        Height="80"
+                                        Click="Origin_Click">
+                                </Button>
+                                <Button Margin="0,20,0,0"
+                                        x:Name="bt_Manu"
+                                        Content="{DynamicResource manu}"
+                                        FontSize="30"
+                                        FontWeight="Bold"
+                                        Width="230"
+                                        Height="80"
+                                        Click="Manual_Click">
+                                </Button>
+                                <Button Margin="0,20,0,0"
+                                        x:Name="bt_Reset"
+                                        Content="{DynamicResource reset}"
+                                        FontSize="30"
+                                        FontWeight="Bold"
+                                        Width="230"
+                                        Height="80"
+                                        Click="bt_Reset_Click"
+                                        Background="White"
+                                        Style="{StaticResource MaterialDesignRaisedButton}">
+                                    <Button.Triggers>
+                                        <EventTrigger RoutedEvent="Button.Click">
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <ColorAnimation To="White"
+                                                                    Duration="0:0:0.2"
+                                                                    Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" />
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </EventTrigger>
+                                        <EventTrigger RoutedEvent="Button.MouseEnter">
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <ColorAnimation To="Yellow"
+                                                                    Duration="0:0:0.0"
+                                                                    Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" />
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </EventTrigger>
+                                        <EventTrigger RoutedEvent="Button.MouseLeave">
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <ColorAnimation To="White"
+                                                                    Duration="0:0:0.2"
+                                                                    Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" />
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </EventTrigger>
+                                    </Button.Triggers>
+                                </Button>
+                                <Button Margin="0,20,0,0"
+                                        x:Name="bt_History"
+                                        Content="{DynamicResource history}"
+                                        FontSize="30"
+                                        FontWeight="Bold"
+                                        Width="230"
+                                        Height="80"
+                                        Click="History_Click">
+                                </Button>
+                                <Button Margin="0,20,0,0"
+                                        x:Name="bt_GPIO"
+                                        Click="bt_GPIO_Click"
+                                        Content="{DynamicResource signal_IO}"
+                                        FontSize="30"
+                                        FontWeight="Bold"
+                                        Width="230"
+                                        Height="80">
+                                </Button>
+                                <Button Margin="0,20,0,0"
+                                        x:Name="bt_Model"
+                                        Content="{DynamicResource model}"
+                                        FontSize="30"
+                                        FontWeight="Bold"
+                                        Width="230"
+                                        Height="80"
+                                        Click="Model_Click">
+                                </Button>
+                                <Button Margin="0,20,0,0"
+                                        x:Name="bt_Setting"
+                                        Content="{DynamicResource setting}"
+                                        FontSize="30"
+                                        FontWeight="Bold"
+                                        Width="230"
+                                        Height="80"
+                                        Click="Setting_Click">
+                                </Button>
+                                <StackPanel Orientation="Horizontal"
+                                            Margin="0,20,0,0"
+                                            Width="230">
+                                    <Grid Width="115">
+                                        <Button Width="110"
+                                                FontSize="15"
+                                                HorizontalAlignment="Center"
+                                                Click="bt_Login"
+                                                Content="{DynamicResource login}"
+                                                Height="50"
+                                                VerticalAlignment="Top" />
+                                    </Grid>
+                                    <Grid Width="115">
+                                        <Button Width="110"
+                                                Height="50"
+                                                FontSize="15"
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                Content="{DynamicResource logout}"
+                                                Click="Logout_Click">
+                                        </Button>
+                                    </Grid>
+                                </StackPanel>
+                                <StackPanel Margin="0,10,0,0">
+                                    <Label Content="Version 1.0.3"
+                                           FontSize="15"
+                                           Height="25"
+                                           FontStyle="Normal"
+                                           FontWeight="Bold"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"
+                                           FontFamily="Source Sans Pro"></Label>
+                                </StackPanel>
+                            </StackPanel>
+
+                        </Grid>
+                        <Grid Margin="0,0,0,0">
+
+                            <Border BorderBrush="#1f1f1f"
+                                    BorderThickness="2"
+                                    Width="1645"
+                                    Height="925"
+                                    VerticalAlignment="Top"
+                                    HorizontalAlignment="Left"
+                                    Margin="0,0,0,0" />
+                            <StackPanel>
+                                <Grid Height="70"
+                                      Width="1645"
+                                      HorizontalAlignment="Left">
+                                    <Border BorderBrush="Black"
+                                            BorderThickness="2">
+                                    </Border>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Grid Width="1400">
+                                            <StackPanel Orientation="Horizontal">
+                                                <Grid Width="155.5">
+                                                    <StackPanel>
+                                                        <Label Content="{DynamicResource pos_Real_X}"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox IsReadOnly="true"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="txb_Real_Pos_X"
+                                                                 Height="40"
+                                                                 Width="150"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="155.5">
+                                                    <StackPanel>
+                                                        <Label Content="{DynamicResource pos_Real_Y}"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox IsReadOnly="true"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="txb_Real_Pos_Y"
+                                                                 Height="40"
+                                                                 Width="150"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="155.5">
+                                                    <StackPanel>
+                                                        <Label Content="{DynamicResource pos_Real_Z}"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox IsReadOnly="true"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="txb_Real_Pos_Z"
+                                                                 Height="40"
+                                                                 Width="150"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="155.5">
+                                                    <StackPanel>
+                                                        <Label Content="{DynamicResource pos_Real_Check_Nang}"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox IsReadOnly="true"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="txb_Real_Pos_NangCheck"
+                                                                 Height="40"
+                                                                 Width="150"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="155.5">
+                                                    <StackPanel>
+                                                        <Label Content="{DynamicResource pos_Real_Check_Kep}"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox IsReadOnly="true"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="txb_Real_Pos_KepCheck"
+                                                                 Height="40"
+                                                                 Width="150"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="155.5">
+                                                    <StackPanel>
+                                                        <Label Content="{DynamicResource pos_Real_Lap_Nang}"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox IsReadOnly="true"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="txb_Real_Pos_NangLap"
+                                                                 Height="40"
+                                                                 Width="150"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="155.5">
+                                                    <StackPanel>
+                                                        <Label Content="{DynamicResource pos_Real_Lap_Kep}"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox IsReadOnly="true"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="txb_Real_Pos_KepLap"
+                                                                 Height="40"
+                                                                 Width="150"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="155.5">
+                                                    <StackPanel>
+                                                        <Label Content="{DynamicResource temperate_Heater}"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox IsReadOnly="true"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="txb_Temper_Heater"
+                                                                 Height="40"
+                                                                 Width="150"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="155.5">
+                                                    <StackPanel>
+                                                        <Label Content="Làm Mát (℃)"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox IsReadOnly="true"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="txb_NhietDo_LamMat"
+                                                                 Height="40"
+                                                                 Width="150"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                            </StackPanel>
+                                        </Grid>
+                                        <Grid Width="250"
+                                              HorizontalAlignment="Center">
+                                            <StackPanel>
+                                                <Grid>
+                                                    <Label Content="PLC  "
+                                                           x:Name="lb_Connect"
+                                                           Foreground="Red"
+                                                           FontSize="25"
+                                                           FontStyle="Normal"
+                                                           FontWeight="Bold"
+                                                           Height="40"
+                                                           Width="125"
+                                                           FontFamily="Source Sans Pro"
+                                                           Margin="0,0,125,0"
+                                                           HorizontalContentAlignment="Right" />
+                                                    <Label Content="Server"
+                                                           x:Name="lb_Server"
+                                                           Foreground="Red"
+                                                           FontSize="25"
+                                                           FontStyle="Normal"
+                                                           FontWeight="Bold"
+                                                           Height="40"
+                                                           FontFamily="Source Sans Pro"
+                                                           HorizontalContentAlignment="Left"
+                                                           Width="125"
+                                                           Margin="125,0,0,0"
+                                                           VerticalAlignment="Center" />
+                                                </Grid>
+                                                <Grid>
+                                                    <Label Content="{DynamicResource Unknown}"
+                                                           x:Name="lb_Mode"
+                                                           FontSize="20"
+                                                           FontStyle="Normal"
+                                                           FontWeight="Bold"
+                                                           FontFamily="Source Sans Pro"
+                                                           HorizontalAlignment="Center"
+                                                           VerticalAlignment="Center" />
+                                                </Grid>
+
+                                            </StackPanel>
+
+                                        </Grid>
+                                    </StackPanel>
+                                </Grid>
+                                <Grid Width="1645"
+                                      Height="845">
+                                    
+                                    <Grid Grid.ColumnSpan="3">
+                                        <StackPanel x:Name="Pannel_Monitor"
+                                                    HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center" />
+                                    </Grid>
+                                </Grid>
+                            </StackPanel>
+
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+            <ScrollViewer.Style>
+                <Style TargetType="ScrollViewer">
+                    <Style.Triggers>
+                        <Trigger Property="ComputedHorizontalScrollBarVisibility"
+                                 Value="Visible">
+                            <Setter Property="VerticalScrollBarVisibility"
+                                    Value="Auto" />
+                        </Trigger>
+                        <Trigger Property="ComputedVerticalScrollBarVisibility"
+                                 Value="Visible">
+                            <Setter Property="HorizontalScrollBarVisibility"
+                                    Value="Auto" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </ScrollViewer.Style>
+        </ScrollViewer>
+    </Grid>
+
+</Window>

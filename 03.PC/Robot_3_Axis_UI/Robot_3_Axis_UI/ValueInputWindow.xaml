@@ -1,0 +1,42 @@
+﻿<Window x:Class="Robot_3_Axis_UI.ValueInputWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Robot_3_Axis_UI"
+        mc:Ignorable="d"
+        Title="Value Input"
+        Height="200"
+        Width="350">
+    <Grid>
+        <StackPanel>
+            <Label Content="Nhập Giá Trị:"
+                   FontSize="15"
+                   FontWeight="Bold"
+                   FontFamily="Source Sans Pro"
+                   Foreground="Black" />
+            <Grid>
+                <Border BorderBrush="Black" BorderThickness="1"></Border>
+                <TextBox x:Name="txtInput"
+                         VerticalContentAlignment="Center"
+                         HorizontalContentAlignment="Center"
+                         Height="45"
+                         FontSize="25"
+                         FontWeight="Bold"
+                         FontFamily="Source Sans Pro"
+                         BorderBrush="Black" />
+            </Grid>
+           
+            <Button x:Name="btnOK"
+                    Background="LightGray"
+                    Content="OK"
+                    Margin="0,10,0,0"
+                    FontSize="20"
+                    Width="100"
+                    Height="40"
+                    FontFamily="Source Sans Pro"
+                    FontWeight="Bold"
+                    Click="btnOK_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

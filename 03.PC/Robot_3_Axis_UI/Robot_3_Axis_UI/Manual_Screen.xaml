@@ -1,0 +1,474 @@
+﻿<UserControl x:Class="Robot_3_Axis_UI.Manual_Screen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Robot_3_Axis_UI"
+             mc:Ignorable="d"
+             Loaded="Manual_Screen_Loaded"
+             Unloaded="Manual_Screen_Unloaded"
+             d:DesignHeight="845"
+             d:DesignWidth="1645">
+    <Grid>
+        <StackPanel>
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="Chạy Tuyệt Đối"
+                                x:Name="bt_Mode_1_Lap"
+                                FontSize="20"
+                                Height="40"
+                            Width="250"
+                                FontStyle="Normal"
+                                FontWeight="Bold"
+                                FontFamily="Source Sans Pro"
+                                Margin="40,0,0,0"
+                                Click="bt_Mode_1_Lap_Click"></Button>
+                    <Button Content="Chạy Bước"
+                            x:Name="bt_Mode_2_Lap"
+                            FontSize="20"
+                            Height="40"
+                            Width="250"
+                            FontStyle="Normal"
+                            FontWeight="Bold"
+                            FontFamily="Source Sans Pro"
+                            Margin="20,0,0,0"
+                            Click="bt_Mode_2_Lap_Click"></Button>
+                </StackPanel>
+                
+                <Grid>
+                    <StackPanel Orientation="Horizontal">
+                        <Grid Margin="0,0,0,0">
+                            <Border BorderBrush="#1f1f1f"
+                                    BorderThickness="1"
+                                    Width="600"
+                                    Height="450"
+                                    VerticalAlignment="Top"
+                                    HorizontalAlignment="Left"
+                                    Margin="0,0,0,0"></Border>
+                            <StackPanel>
+                                <Label Content="Cụm XYZ"
+                                       FontSize="25"
+                                       FontStyle="Normal"
+                                       FontWeight="Bold"
+                                       FontFamily="Source Sans Pro"
+                                       HorizontalAlignment="Center"
+                                       VerticalContentAlignment="Center"></Label>
+                                <StackPanel Width="590"
+                                            Height="310">
+                                    <Grid>
+                                        <StackPanel x:Name="Control_XYZ"
+                                                    HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center" />
+                                    </Grid>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal"
+                                            Margin="0,10,0,0">
+                                    <Label Margin="10,10,0,0"
+                                           Content="Tay Kẹp"
+                                           FontSize="20"
+                                           FontFamily="Source Sans Pro"
+                                           FontWeight="Bold"
+                                           Width="100"></Label>
+                                    <Button Content="Kẹp"
+                                            x:Name="bt_Taykep_Kep"
+                                            Width="150"
+                                            Height="80"
+                                            Click="Three_Axis_Kep_Click"></Button>
+                                    <Button Content="Nhả"
+                                            x:Name="bt_Taykep_Nha"
+                                            Width="150"
+                                            Height="80"
+                                            Margin="20,0,0,0"
+                                            Click="Three_Axis_Nha_Click"></Button>
+                                </StackPanel>
+
+                            </StackPanel>
+                        </Grid>
+                        <Grid>
+                            <Border BorderBrush="#1f1f1f"
+                                    BorderThickness="1"
+                                    Width="600"
+                                    Height="450"
+                                    VerticalAlignment="Top"
+                                    HorizontalAlignment="Left"
+                                    Margin="0,0,0,0">
+                            </Border>
+                            <StackPanel>
+                                
+                                
+                                <Label Content="Cụm Lắp"
+                                       FontSize="25"
+                                       FontStyle="Normal"
+                                       FontWeight="Bold"
+                                       FontFamily="Source Sans Pro"
+                                       HorizontalAlignment="Center"></Label>
+                                <StackPanel />
+                                <StackPanel Width="590"
+                                            Height="220">
+                                    <Grid>
+                                        <StackPanel x:Name="Control_Lap"
+                                                    HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center" />
+                                    </Grid>
+                                </StackPanel>
+                                
+                                <StackPanel Orientation="Horizontal"
+                                            Margin="0,30,0,0">
+
+                                    <Button Content="Nâng Cụm"
+                                            x:Name="bt_Nang_Cum_Lap"
+                                            Width="150"
+                                            Height="80"
+                                            Margin="55,0,0,0"
+                                            Click="bt_Nang_Cum_Lap_Click"></Button>
+                                    <Button Content="Tay Kẹp"
+                                            x:Name="bt_Tay_Kep_Lap"
+                                            Width="150"
+                                            Height="80"
+                                            Margin="20,0,0,0"
+                                            Click="bt_Kep_Cum_Lap_Click"></Button>
+                                    <Button Content="Thối Khí"
+                                            x:Name="bt_Blow_Air"
+                                            Width="150"
+                                            Height="80"
+                                            Margin="20,0,0,0"
+                                            Click="bt_Blow_Air_Click"></Button>
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Width="445"
+                              Height="450">
+                            <Border BorderBrush="#1f1f1f"
+                                    BorderThickness="1">
+                            </Border>
+                            <StackPanel>
+                                <Label Content="Cụm Nung"
+                                       FontSize="25"
+                                       FontStyle="Normal"
+                                       FontWeight="Bold"
+                                       FontFamily="Source Sans Pro"
+                                       HorizontalAlignment="Center"></Label>
+                                <Grid HorizontalAlignment="Center">
+                                    <StackPanel Orientation="Horizontal"
+                                                Margin="0,40,0,0">
+                                        <Grid VerticalAlignment="Center"
+                                              HorizontalAlignment="Left">
+                                            <Label Content="Bàn Xoay"
+                                                   FontSize="20"
+                                                   FontStyle="Normal"
+                                                   FontWeight="Bold"
+                                                   FontFamily="Source Sans Pro"
+                                                   Width="100"></Label>
+                                        </Grid>
+                                        <Button Content="Xoay"
+                                                x:Name="bt_Jog_BX"
+                                                Width="320"
+                                                Height="80"
+                                                Click="bt_FWD_Rotate_Table_Click"></Button>
+                                    </StackPanel>
+                                </Grid>
+                                <Grid HorizontalAlignment="Center">
+                                    <StackPanel Orientation="Horizontal"
+                                                Margin="0,10,0,0">
+                                        <Grid VerticalAlignment="Center">
+                                            <Label Content="XL"
+                                                   FontSize="20"
+                                                   FontStyle="Normal"
+                                                   FontWeight="Bold"
+                                                   FontFamily="Source Sans Pro"
+                                                   HorizontalAlignment="Center"
+                                                   Width="100"></Label>
+                                        </Grid>
+                                        <Button Content="Nâng"
+                                                x:Name="bt_Up_Cum_Nung"
+                                                Width="150"
+                                                Height="80"
+                                                Click="bt_Cyl_Cum_Nung_Up"></Button>
+                                        <Button Content="Hạ"
+                                                x:Name="bt_Down_Cum_Nung"
+                                                Width="150"
+                                                Height="80"
+                                                Margin="20,00,0,0"
+                                                Click="bt_Cyl_Cum_Nung_Down"></Button>
+                                    </StackPanel>
+                                </Grid>
+                                <Grid HorizontalAlignment="Center">
+                                    <StackPanel Orientation="Horizontal"
+                                                Margin="0,10,0,0">
+                                        <Grid VerticalAlignment="Center">
+                                            <Label Content="Nung"
+                                                   FontSize="20"
+                                                   FontStyle="Normal"
+                                                   FontWeight="Bold"
+                                                   FontFamily="Source Sans Pro"
+                                                   HorizontalAlignment="Center"
+                                                   Width="100"></Label>
+                                        </Grid>
+                                        <Button Content="Bật"
+                                                x:Name="bt_ON_Nung"
+                                                Width="150"
+                                                Height="80"
+                                                Click="bt_On_Cum_Nung"></Button>
+                                        <Button Content="Tắt"
+                                                x:Name="bt_Off_Nung"
+                                                Width="150"
+                                                Height="80"
+                                                Margin="20,00,0,0"
+                                                Click="bt_Off_Cum_Nung"></Button>
+                                    </StackPanel>
+
+                                </Grid>
+                                <Grid HorizontalAlignment="Center">
+                                    <StackPanel Orientation="Horizontal"
+                                                Margin="0,10,0,0">
+                                        <Grid VerticalAlignment="Center">
+                                            <StackPanel Orientation="Horizontal">
+                                                <Label Content="Công Suất Nung:"
+                                                       FontSize="20"
+                                                       FontStyle="Normal"
+                                                       FontWeight="Bold"
+                                                       FontFamily="Source Sans Pro"
+                                                       HorizontalAlignment="Center"
+                                                       VerticalAlignment="Center"
+                                                       Width="170"></Label>
+                                                <TextBox x:Name="txb_Persen_Heater"
+                                                    Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         Height="80"
+                                                         Width="220"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         VerticalContentAlignment="Center"
+                                                         HorizontalContentAlignment="Center"
+                                                         Foreground="Black"
+                                                         FontSize="20"
+                                                         FontStyle="Normal"
+                                                         FontFamily="Source Sans Pro"
+                                                         Margin="20,0,0,0"
+                                                         TextChanged="txb_Persen_Heater_TextChanged">
+                                                </TextBox>
+                                            </StackPanel>
+                                            
+                                        </Grid>
+
+                                    </StackPanel>
+                                </Grid>
+                            </StackPanel>
+
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+                <Grid>
+                    <StackPanel Orientation="Horizontal">
+                        <Grid>
+                            <Border BorderBrush="#1f1f1f"
+                                    BorderThickness="1"
+                                    Width="600"
+                                    Height="345"
+                                    VerticalAlignment="Top"
+                                    HorizontalAlignment="Left"
+                                    Margin="0,0,0,0">
+                            </Border>
+                            <StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                </StackPanel>
+                                <Label Content="Cụm Đo"
+                                       FontSize="25"
+                                       FontStyle="Normal"
+                                       FontWeight="Bold"
+                                       FontFamily="Source Sans Pro"
+                                       HorizontalAlignment="Center"></Label>
+                                <StackPanel Width="590"
+                                            Height="210">
+                                    <Grid>
+                                        <StackPanel x:Name="Control_Do"
+                                                    HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center" />
+                                    </Grid>
+                                </StackPanel>
+                                
+                                <StackPanel Orientation="Horizontal"
+                                            Margin="110,0,0,0">
+
+                                    <Button Content="Tay Kẹp"
+                                            x:Name="bt_Tay_Kep_Check"
+                                            Width="150"
+                                            Height="80"
+                                            Click="bt_Kep_Cum_Check_Click"></Button>
+                                    <Button Content="Kiểm Tra"
+                                            x:Name="bt_Check_Manual"
+                                            Width="150"
+                                            Height="80"
+                                            Margin="20,0,0,0"
+                                            Click="bt_Check_Manual_Click"></Button>
+                                    <Grid Margin="20,0,0,0"
+                                          Height="80">
+
+                                        <StackPanel>
+                                            <StackPanel Orientation="Horizontal"
+                                                        Height="40">
+                                                <Grid Height="40"
+                                                      Width="135">
+                                                    <TextBox BorderBrush="Black"
+                                                             x:Name="txb_Standar_Check"
+                                                             IsEnabled="False"
+                                                             FontWeight="Bold"
+                                                             FontSize="15"
+                                                             Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                             VerticalContentAlignment="Center"
+                                                             HorizontalContentAlignment="Center"
+                                                             BorderThickness="1"
+                                                             Width="135"
+                                                             Height="35"
+                                                             HorizontalAlignment="Center"
+                                                             VerticalAlignment="Center"></TextBox>
+                                                </Grid>
+
+                                            </StackPanel>
+                                            <StackPanel Orientation="Horizontal"
+                                                        Height="40">
+
+                                                <Grid Height="40"
+                                                      Width="135">
+                                                    <TextBox BorderBrush="Black"
+                                                             x:Name="txb_Pos_Check"
+                                                             Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                             VerticalContentAlignment="Center"
+                                                             HorizontalContentAlignment="Center"
+                                                             BorderThickness="1"
+                                                             Width="135"
+                                                             Height="35"
+                                                             HorizontalAlignment="Center"
+                                                             VerticalAlignment="Center"></TextBox>
+                                                </Grid>
+
+                                            </StackPanel>
+                                        </StackPanel>
+
+                                    </Grid>
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                        <Grid>
+                            <Border BorderBrush="#1f1f1f"
+                                    BorderThickness="1"
+                                    Width="600"
+                                    Height="345"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center" />
+                            <StackPanel>
+                                <Label Content="Cụm Băng Tải 1"
+                                       FontSize="25"
+                                       FontStyle="Normal"
+                                       FontWeight="Bold"
+                                       FontFamily="Source Sans Pro"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Top"></Label>
+                                <Grid HorizontalAlignment="Center">
+                                    <StackPanel Orientation="Horizontal"
+                                                Margin="0,40,0,0">
+                                        <Button Content="Run BT"
+                                                x:Name="bt_RunBT1"
+                                                Width="150"
+                                                Height="80"
+                                                Click="bt_Run_BT1_Click"></Button>
+                                        <Button Content="Stopper"
+                                                x:Name="bt_Stopper_BT1"
+                                                Width="150"
+                                                Height="80"
+                                                Margin="20,00,0,0"
+                                                Click="bt_Stopper_BT1_Click"></Button>
+                                        <Button Content="XL Kẹp Tray"
+                                                x:Name="bt_XL_Kep_Tray_BT1"
+                                                Width="150"
+                                                Height="80"
+                                                Margin="20,00,0,0"
+                                                Click="bt_XL_Kep_BT1_Click"></Button>
+                                    </StackPanel>
+                                </Grid>
+                                <Grid Margin="0,30,0,0">
+                                    <Label Content="Cụm Băng Tải 2"
+                                           FontSize="25"
+                                           FontStyle="Normal"
+                                           FontWeight="Bold"
+                                           FontFamily="Source Sans Pro"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Top"></Label>
+                                    <Grid HorizontalAlignment="Center">
+                                        <StackPanel Orientation="Horizontal"
+                                                    Margin="0,70,0,0">
+                                            <Button Content="Run BT"
+                                                    x:Name="bt_Run_BT2"
+                                                    Width="150"
+                                                    Height="80"
+                                                    Click="bt_Run_BT2_Click"></Button>
+                                            <Button Content="Stopper"
+                                                    x:Name="bt_Stopper_BT2"
+                                                    Width="150"
+                                                    Height="80"
+                                                    Margin="20,00,0,0"
+                                                    Click="bt_Stopper_BT2_Click"></Button>
+                                            <Button Content="XL Kẹp Tray"
+                                                    x:Name="bt_XL_KepTray_BT2"
+                                                    Width="150"
+                                                    Height="80"
+                                                    Margin="20,00,0,0"
+                                                    Click="bt_XL_Kep_Tray_BT2_Click"></Button>
+                                        </StackPanel>
+                                    </Grid>
+                                </Grid>
+
+                            </StackPanel>
+                        </Grid>
+                        <Grid>
+                            <Border BorderBrush="#1f1f1f"
+                                    BorderThickness="1"
+                                    Width="445"
+                                    Height="345"
+                                    VerticalAlignment="Top"
+                                    HorizontalAlignment="Left"
+                                    Margin="0,0,0,0">
+                            </Border>
+                            <StackPanel>
+                                <Label Content="Cụm Băng Tải Return"
+                                       FontSize="25"
+                                       FontStyle="Normal"
+                                       FontWeight="Bold"
+                                       FontFamily="Source Sans Pro"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Top"></Label>
+                                <Grid HorizontalAlignment="Center">
+                                    <StackPanel Orientation="Horizontal"
+                                                Margin="0,50,0,0">
+                                        <Button Content="Run BT"
+                                                x:Name="bt_Run_BT_Return"
+                                                Width="150"
+                                                Height="80"
+                                                Click="bt_Run_BT_Return_Click"></Button>
+                                        <Button Content="XL Kẹp Tray"
+                                                x:Name="bt_XL_KepTray_BT_Return"
+                                                Width="150"
+                                                Height="80"
+                                                Margin="20,00,0,0"
+                                                Click="bt_XL_Kep_Tray_BT_Return_Click"></Button>
+                                    </StackPanel>
+                                </Grid>
+                                <Grid HorizontalAlignment="Center">
+                                    <StackPanel Orientation="Horizontal"
+                                                Margin="0,75,0,0">
+                                        <Button Content="Stopper"
+                                                x:Name="bt_Stopper2_BT_Return"
+                                                Width="150"
+                                                Height="80"
+                                                Margin="0,00,0,0"
+                                                Click="bt_Stopper2_BT_Return_Click"></Button>
+                                    </StackPanel>
+                                </Grid>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</UserControl>

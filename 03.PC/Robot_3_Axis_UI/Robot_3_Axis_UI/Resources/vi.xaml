@@ -1,0 +1,43 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib"
+                    xmlns:local="clr-namespace:Robot_3_Axis_UI">
+	<system:String x:Key="lb_machine">Máy Lắp Trục</system:String>
+	<system:String x:Key="auto">Tự Động</system:String>
+	<system:String x:Key="origin">Về Gốc</system:String>
+	<system:String x:Key="manu">Bằng Tay</system:String>
+	<system:String x:Key="reset">Xóa Lỗi</system:String>
+	<system:String x:Key="history">Lịch Sử</system:String>
+	<system:String x:Key="signal_IO">Tín Hiệu I/O</system:String>
+	<system:String x:Key="model">Model</system:String>
+	<system:String x:Key="setting">Cài Đặt</system:String>
+	<system:String x:Key="login">Đăng Nhập</system:String>
+	<system:String x:Key="logout">Đăng Xuất</system:String>
+	<system:String x:Key="pos_Real_X">Tọa Độ X/mm</system:String>
+	<system:String x:Key="pos_Real_Y">Tọa Độ Y/mm</system:String>
+	<system:String x:Key="pos_Real_Z">Tọa Độ Z/mm</system:String>
+	<system:String x:Key="pos_Real_Check_Nang">Cụm Ktra Nâng/mm</system:String>
+	<system:String x:Key="pos_Real_Check_Kep">Cụm Ktr Kẹp/mm</system:String>
+	<system:String x:Key="pos_Real_Lap_Nang">Cụm Lắp Nâng/mm</system:String>
+	<system:String x:Key="pos_Real_Lap_Kep">Cụm Lắp Kẹp/mm</system:String>
+    <system:String x:Key="temperate_Heater">Nung (℃)</system:String>
+	<system:String x:Key="Unknown">Không Xác Định</system:String>
+	<system:String x:Key="Machine_status">Trạng Thái Máy</system:String>
+	<system:String x:Key="Infor_Tray_1">Thông Tin Tray 1</system:String>
+	<system:String x:Key="Infor_Tray_2">Thông Tin Tray 2</system:String> 
+	<system:String x:Key="Tray_input_conveyer">Băng Tải Cấp Tray</system:String>
+	<system:String x:Key="Tray_output_conveyer">Băng Tải Xuất Tray</system:String>
+	<system:String x:Key="Tray_return_conveyer">Băng Tải Trả Tray</system:String>
+	<system:String x:Key="3_axle_assembly">Cụm XYZ</system:String>
+	<system:String x:Key="Mounting_assembly">Cụm Lắp</system:String>
+	<system:String x:Key="Measurement_cluster">Cụm Đo</system:String> 
+	<system:String x:Key="Turntable_and_heater">Bàn Xoay Và Nung</system:String>
+	<system:String x:Key="QR_code_conveyer_input">QRCode Băng Tải Cấp Tray</system:String>
+	<system:String x:Key="QR_code_conveyer_output">QRCode Băng Tải Xuất Tray</system:String>
+
+
+</ResourceDictionary>
+
+
+
+

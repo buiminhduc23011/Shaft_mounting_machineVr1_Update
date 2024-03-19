@@ -1,0 +1,1438 @@
+﻿<UserControl x:Class="Robot_3_Axis_UI.Model_Screen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Robot_3_Axis_UI"
+             Loaded="Model_Screen_Loaded"
+             mc:Ignorable="d"
+             d:DesignHeight="845"
+             d:DesignWidth="1645">
+    <Grid>
+        <Grid Width="1645"
+              Height="845">
+            <Border BorderBrush="Black"
+                    BorderThickness="1"></Border>
+            <StackPanel Orientation="Horizontal"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Left">
+                <Grid>
+                    <Border BorderBrush="Black"
+                            BorderThickness="1">
+
+                    </Border>
+                    <StackPanel Width="600">
+                        <Grid Height="60">
+                            <Border BorderBrush="Black"
+                                    BorderThickness="1">
+                            </Border>
+                            <Label Content="Danh Sách Model"
+                                   FontSize="20"
+                                   FontWeight="Bold"
+                                   HorizontalAlignment="Center"
+                                   HorizontalContentAlignment="Center"
+                                   VerticalAlignment="Center"></Label>
+                            <Button Content="Xuất File Excel"
+                                    Background="#00FF00"
+                                    Width="150"
+                                    Height="50"
+                                    Margin="410,0,0,0"
+                                    Click="bt_Export_File_Click"></Button>
+                        </Grid>
+                        <StackPanel>
+                            <Grid Height="785"
+                                  Width="599">
+                                <DataGrid x:Name="List_Models"
+                                          AutoGenerateColumns="False"
+                                          FontSize="20"
+                                          Foreground="Black"
+                                          BorderBrush="Black"
+                                          BorderThickness="1"
+                                          HorizontalGridLinesBrush="Black"
+                                          CanUserResizeColumns="False"
+                                          CanUserResizeRows="False"
+                                          IsReadOnly="True"
+                                          Grid.ColumnSpan="3">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="STT"
+                                                            Binding="{Binding STT}"
+                                                            Width="Auto">
+                                            <DataGridTextColumn.ElementStyle>
+                                                <Style TargetType="{x:Type TextBlock}">
+                                                    <Setter Property="HorizontalAlignment"
+                                                            Value="Center" />
+                                                </Style>
+                                            </DataGridTextColumn.ElementStyle>
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Header="Model"
+                                                            Binding="{Binding Model}"
+                                                            Width="100" />
+                                        <DataGridTextColumn Header="Mã Trục"
+                                                            Binding="{Binding Truc}"
+                                                            Width="200" />
+                                        <DataGridTextColumn Header="Mã Roto"
+                                                            Binding="{Binding Roto}"
+                                                            Width="200" />
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </StackPanel>
+                       
+                    </StackPanel>
+                </Grid>
+                <Grid Width="1045">
+                    <Border BorderBrush="Black"
+                            BorderThickness="1"></Border>
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Grid Height="60"
+                                  Width="1045">
+                                <Border BorderBrush="Black"
+                                        BorderThickness="1"></Border>
+                                <Label Content="Cài Đặt"
+                                       FontFamily="Source Sans Pro"
+                                       FontSize="20"
+                                       FontWeight="Bold"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"></Label>
+                                <Button Content="Nhập File Excel"
+                                        Background="#00FF00"
+                                        Width="150"
+                                        Height="50"
+                                        Margin="850,0,0,0"
+                                        Click="bt_import_list_model_click"></Button>
+                            </Grid>
+
+                        </StackPanel>
+                        <Grid Margin="0,0,0,0">
+
+                            <StackPanel Orientation="Horizontal">
+                                <Grid Height="785"
+                                      Width="520">
+                                    <Border BorderThickness="1"
+                                            BorderBrush="Black"></Border>
+                                    <StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                                    HorizontalAlignment="Center"
+                                                    Margin="0,10,0,0">
+                                            <StackPanel Orientation="Horizontal"
+                                                        Margin="0,10,0,0">
+                                                <Label Content="Model:"
+                                                       FontSize="15"
+                                                       FontWeight="Bold"
+                                                       Width="60"></Label>
+                                                <TextBox x:Name="txb_Model"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="15"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Width="60"
+                                                         Margin="5,0,0,0"
+                                                         PreviewTextInput="txbModel_PreviewTextInput"></TextBox>
+                                            </StackPanel>
+                                            <StackPanel Orientation="Horizontal"
+                                                        Margin="5,10,0,0">
+                                                <Label Content="Trục ID:"
+                                                       FontSize="15"
+                                                       FontWeight="Bold"
+                                                       Width="65"></Label>
+                                                <TextBox x:Name="txb_Truc"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="15"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Width="120"
+                                                         TextChanged="txb_Truc_TextChanged"
+                                                         Margin="5,0,0,0"></TextBox>
+                                            </StackPanel>
+                                            <StackPanel Orientation="Horizontal"
+                                                        Margin="5,10,0,0">
+                                                <Label Content="Roto ID:"
+                                                       FontSize="15"
+                                                       FontWeight="Bold"
+                                                       Width="65"></Label>
+                                                <TextBox x:Name="txb_Roto"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="15"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Width="120"
+                                                         TextChanged="txb_Truc_TextChanged"
+                                                         Margin="5,0,0,0"></TextBox>
+                                            </StackPanel>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                                    Margin="0,20,0,0">
+                                            <Label Content="X"
+                                                   FontSize="20"
+                                                   FontWeight="Bold"
+                                                   Margin="140,0,0,0"></Label>
+                                            <Label Content="Y"
+                                                   FontSize="20"
+                                                   FontWeight="Bold"
+                                                   Margin="90,0,0,0"></Label>
+                                            <Label Content="Z"
+                                                   FontSize="20"
+                                                   FontWeight="Bold"
+                                                   Margin="90,0,0,0"></Label>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Roto 1"
+                                                        x:Name="bt_Roto1"
+                                                        FontSize="20"
+                                                        Margin="10,0,0,0"
+                                                        Width="90"
+                                                        Height="40"
+                                                        Click="bt_Roto1_Click"></Button>
+                                            </Grid>
+                                            <TextBox x:Name="txb_Roto1_PosX"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Margin="5,0,0,0"
+                                                     Height="40"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Roto1_PosY"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Roto1_PosZ"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Set"
+                                                        Margin="5,0,0,0"
+                                                        Width="95"
+                                                        Height="40"
+                                                        HorizontalAlignment="Left"
+                                                        Click="bt_SetRotor1_Click" />
+                                            </Grid>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                                    Margin="0,10,0,0">
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Roto 2"
+                                                        x:Name="bt_Roto2"
+                                                        FontSize="20"
+                                                        Width="90"
+                                                        Height="40"
+                                                        Margin="10,0,0,0"
+                                                        Click="bt_Roto2_Click"></Button>
+                                            </Grid>
+                                            <TextBox x:Name="txb_Roto2_PosX"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Margin="5,0,0,0"
+                                                     Height="40"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Roto2_PosY"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Roto2_PosZ"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Set"
+                                                        Margin="5,0,0,0"
+                                                        Width="95"
+                                                        Height="40"
+                                                        Click="bt_SetRotor2_Click"></Button>
+                                            </Grid>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                                    Margin="0,10,0,0">
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Roto 3"
+                                                        x:Name="bt_Roto3"
+                                                        FontSize="20"
+                                                        Width="90"
+                                                        Height="40"
+                                                        Margin="10,0,0,0"
+                                                        Click="bt_Roto3_Click"></Button>
+                                            </Grid>
+                                            <TextBox x:Name="txb_Roto3_PosX"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Height="40"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Roto3_PosY"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Height="40"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Roto3_PosZ"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Set"
+                                                        Margin="5,0,0,0"
+                                                        Width="95"
+                                                        Height="40"
+                                                        Click="bt_SetRotor3_Click"></Button>
+                                            </Grid>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                                    Margin="0,10,0,0">
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Roto 4"
+                                                        x:Name="bt_Roto4"
+                                                        FontSize="20"
+                                                        Width="90"
+                                                        Height="40"
+                                                        Margin="10,0,0,0"
+                                                        Click="bt_Roto4_Click"></Button>
+                                            </Grid>
+                                            <TextBox x:Name="txb_Roto4_PosX"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Margin="5,0,0,0"
+                                                     Height="40"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Roto4_PosY"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Roto4_PosZ"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Set"
+                                                        Margin="5,0,0,0"
+                                                        Width="95"
+                                                        Height="40"
+                                                        Click="bt_SetRotor4_Click"></Button>
+                                            </Grid>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                                    Margin="0,10,0,0">
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Roto 5"
+                                                        x:Name="bt_Roto5"
+                                                        FontSize="20"
+                                                        Width="90"
+                                                        Height="40"
+                                                        Margin="10,0,0,0"
+                                                        Click="bt_Roto5_Click"></Button>
+                                            </Grid>
+                                            <TextBox x:Name="txb_Roto5_PosX"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Margin="5,0,0,0"
+                                                     Height="40"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Roto5_PosY"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Roto5_PosZ"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Set"
+                                                        Margin="5,0,0,0"
+                                                        Width="95"
+                                                        Height="40"
+                                                        Click="bt_SetRotor5_Click"></Button>
+                                            </Grid>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                                    Margin="0,10,0,0">
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Truc 1"
+                                                        x:Name="bt_Truc1"
+                                                        FontSize="20"
+                                                        Width="90"
+                                                        Height="40"
+                                                        Margin="10,0,0,0"
+                                                        Click="bt_Truc1_Click"></Button>
+                                            </Grid>
+                                            <TextBox x:Name="txb_Truc1_PosX"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Margin="5,0,0,0"
+                                                     Height="40"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Truc1_PosY"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Truc1_PosZ"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Set"
+                                                        Margin="5,0,0,0"
+                                                        Width="95"
+                                                        Height="40"
+                                                        Click="bt_SetTruc1_Click"></Button>
+                                            </Grid>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                                    Margin="0,10,0,0">
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Truc 2"
+                                                        x:Name="bt_Truc2"
+                                                        FontSize="20"
+                                                        Width="90"
+                                                        Height="40"
+                                                        Margin="10,0,0,0"
+                                                        Click="bt_Truc2_Click"></Button>
+                                            </Grid>
+                                            <TextBox x:Name="txb_Truc2_PosX"
+                                                     FontSize="20"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Margin="5,0,0,0"
+                                                     Height="40"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Truc2_PosY"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Truc2_PosZ"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Set"
+                                                        Margin="5,0,0,0"
+                                                        Width="95"
+                                                        Height="40"
+                                                        Click="bt_SetTruc2_Click"></Button>
+                                            </Grid>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                                    Margin="0,10,0,0">
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Truc 3"
+                                                        x:Name="bt_Truc3"
+                                                        FontSize="20"
+                                                        Width="90"
+                                                        Height="40"
+                                                        Margin="10,0,0,0"
+                                                        Click="bt_Truc3_Click"></Button>
+                                            </Grid>
+                                            <TextBox x:Name="txb_Truc3_PosX"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Margin="5,0,0,0"
+                                                     Height="40"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Truc3_PosY"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Truc3_PosZ"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="2*" />
+                                                    <ColumnDefinition Width="3*" />
+                                                </Grid.ColumnDefinitions>
+                                                <Button Content="Set"
+                                                        Margin="5,0,0,0"
+                                                        Width="95"
+                                                        Height="40"
+                                                        Click="bt_SetTruc3_Click"></Button>
+                                            </Grid>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                                    Margin="0,10,0,0">
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Truc 4"
+                                                        x:Name="bt_Truc4"
+                                                        FontSize="20"
+                                                        Width="90"
+                                                        Height="40"
+                                                        Margin="10,0,0,0"
+                                                        Click="bt_Truc4_Click"></Button>
+                                            </Grid>
+                                            <TextBox x:Name="txb_Truc4_PosX"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Margin="5,0,0,0"
+                                                     Height="40"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Truc4_PosY"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Truc4_PosZ"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Set"
+                                                        Margin="5,0,0,0"
+                                                        Width="95"
+                                                        Height="40"
+                                                        Click="bt_SetTruc4_Click"></Button>
+                                            </Grid>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                                    Margin="0,10,0,0">
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Truc 5"
+                                                        x:Name="bt_Truc5"
+                                                        FontSize="20"
+                                                        Width="90"
+                                                        Height="40"
+                                                        Margin="10,0,0,0"
+                                                        Click="bt_Truc5_Click"></Button>
+                                            </Grid>
+                                            <TextBox x:Name="txb_Truc5_PosX"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Margin="5,0,0,0"
+                                                     Height="40"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Truc5_PosY"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Truc5_PosZ"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Set"
+                                                        Margin="5,0,0,0"
+                                                        Width="95"
+                                                        Height="40"
+                                                        Click="bt_SetTruc5_Click"></Button>
+                                            </Grid>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                                    Margin="0,10,0,0">
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Roto 6"
+                                                        x:Name="bt_Roto6"
+                                                        FontSize="20"
+                                                        Width="90"
+                                                        Height="40"
+                                                        Margin="10,0,0,0"
+                                                        Click="bt_Roto6_Click">
+                                                </Button>
+                                            </Grid>
+                                            <TextBox x:Name="txb_Roto6_PosX"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Margin="5,0,0,0"
+                                                     Height="40"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Roto6_PosY"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Roto6_PosZ"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Set"
+                                                        Margin="5,0,0,0"
+                                                        Width="95"
+                                                        Height="40"
+                                                        Click="bt_SetRotor6_Click"></Button>
+                                            </Grid>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                                    Margin="0,10,0,0">
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Roto 7"
+                                                        x:Name="bt_Roto7"
+                                                        FontSize="20"
+                                                        Width="90"
+                                                        Height="40"
+                                                        Margin="10,0,0,0"
+                                                        Click="bt_Roto7_Click"></Button>
+                                            </Grid>
+                                            <TextBox x:Name="txb_Roto7_PosX"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Margin="5,0,0,0"
+                                                     Height="40"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Roto7_PosY"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Roto7_PosZ"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Set"
+                                                        Margin="5,0,0,0"
+                                                        Width="95"
+                                                        Height="40"
+                                                        Click="bt_SetRotor7_Click"></Button>
+                                            </Grid>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                                    Margin="0,10,0,0">
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Truc 6"
+                                                        x:Name="bt_Truc6"
+                                                        FontSize="20"
+                                                        Width="90"
+                                                        Height="40"
+                                                        Margin="10,0,0,0"
+                                                        Click="bt_Truc6_Click"></Button>
+                                            </Grid>
+                                            <TextBox x:Name="txb_Truc6_PosX"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Margin="5,0,0,0"
+                                                     Height="40"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Truc6_PosY"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <TextBox x:Name="txb_Truc6_PosZ"
+                                                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                     Margin="5,0,0,0"
+                                                     FontSize="20"
+                                                     HorizontalContentAlignment="Center"
+                                                     VerticalContentAlignment="Center"
+                                                     BorderBrush="Black"
+                                                     BorderThickness="1"
+                                                     Width="100">
+                                            </TextBox>
+                                            <Grid VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center">
+                                                <Button Content="Set"
+                                                        Margin="5,0,0,0"
+                                                        Width="95"
+                                                        Height="40"
+                                                        Click="bt_SetTruc6_Click"></Button>
+                                            </Grid>
+                                        </StackPanel>
+
+                                    </StackPanel>
+                                </Grid>
+                                <Grid Width="525"
+                                      Height="785"
+                                      VerticalAlignment="Top">
+                                    <Border BorderBrush="Black"
+                                            BorderThickness="1"></Border>
+                                    <StackPanel>
+
+                                        <StackPanel Margin="0,10,0,0">
+                                            <Grid Margin="60,0,0,0">
+                                                <Label Content="Cụm Kiểm Tra"
+                                                       FontSize="20"
+                                                       FontWeight="Bold"
+                                                       HorizontalAlignment="Center"></Label>
+                                            </Grid>
+                                            <StackPanel Orientation="Horizontal"
+                                                        Margin="0,0,0,0">
+                                                <Grid VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center">
+                                                    <Button Content="Thả"
+                                                            x:Name="bt_Tha_Cum_Ktr"
+                                                            FontSize="20"
+                                                            Width="90"
+                                                            Height="40"
+                                                            Margin="10,0,0,0"
+                                                            VerticalAlignment="Top"
+                                                            Click="bt_Tha_Cum_Ktr_Click"></Button>
+                                                </Grid>
+                                                <TextBox x:Name="txb_Cum_Ktr_Tha_PosX"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Margin="5,0,0,0"
+                                                         Width="100"
+                                                         Height="40"></TextBox>
+                                                <TextBox x:Name="txb_Cum_Ktr_Tha_PosY"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Width="100"
+                                                         Margin="5,0,0,0"></TextBox>
+                                                <TextBox x:Name="txb_Cum_Ktr_Tha_PosZ"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Width="100"
+                                                         Margin="5,0,0,0"></TextBox>
+                                                <Button Content="Set"
+                                                        Margin="5,0,0,0"
+                                                        Width="90"
+                                                        Height="40"
+                                                        Click="bt_Set_Cum_Ktr_Tha"></Button>
+                                            </StackPanel>
+
+                                            <StackPanel Orientation="Horizontal"
+                                                        Margin="0,10,0,0">
+                                                <Grid VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center">
+                                                    <Button Content="Nâng"
+                                                            FontSize="20"
+                                                            Width="90"
+                                                            Height="40"
+                                                            Margin="10,0,0,0"></Button>
+                                                </Grid>
+                                                <TextBox  x:Name="txb_Cum_Ktr_Pos_Nang"
+                                                          Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                          FontSize="20"
+                                                          HorizontalContentAlignment="Center"
+                                                          VerticalContentAlignment="Center"
+                                                          BorderBrush="Black"
+                                                          BorderThickness="1"
+                                                          Margin="5,0,0,0"
+                                                          Width="100"
+                                                          Height="40"></TextBox>
+                                                <Grid VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center">
+                                                    <Button Content="Tay Kẹp"
+                                                            FontSize="20"
+                                                            Height="40"
+                                                            Width="105"></Button>
+                                                </Grid>
+                                                <TextBox x:Name="txb_Cum_Ktr_Pos_Taykep"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Width="100"
+                                                         Margin="5,0,0,0"></TextBox>
+                                            </StackPanel>
+                                        </StackPanel>
+                                        <StackPanel Margin="0,10,0,0">
+                                            <Grid Margin="60,0,0,0">
+                                                <Label Content="Cụm Lắp"
+                                                       FontSize="20"
+                                                       FontWeight="Bold"
+                                                       HorizontalAlignment="Center"></Label>
+                                            </Grid>
+                                            <StackPanel Orientation="Horizontal"
+                                                        Margin="0,0,0,0">
+                                                <Grid VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center">
+                                                    <Button Content="Gắp"
+                                                            x:Name="bt_Gap_CumLap"
+                                                            FontSize="20"
+                                                            Width="90"
+                                                            Height="40"
+                                                            Margin="10,0,0,0"
+                                                            Click="bt_Gap_CumLap_Click"></Button>
+                                                </Grid>
+                                                <TextBox x:Name="txb_Cum_Lap_Gap_PosX"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Margin="5,0,0,0"
+                                                         Width="100"
+                                                         Height="40"></TextBox>
+                                                <TextBox x:Name="txb_Cum_Lap_Gap_PosY"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Width="100"
+                                                         Margin="5,0,0,0"></TextBox>
+                                                <TextBox x:Name="txb_Cum_Lap_Gap_PosZ"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Width="100"
+                                                         Margin="5,0,0,0"></TextBox>
+                                                <Button Content="Set"
+                                                        Margin="5,0,0,0"
+                                                        Width="90"
+                                                        Height="40"
+                                                        Click="bt_Set_Cum_Lap_Gap"></Button>
+                                            </StackPanel>
+                                            <StackPanel Orientation="Horizontal"
+                                                        Margin="0,10,0,0">
+                                                <Grid VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center">
+                                                    <Button Content="Lắp"
+                                                            x:Name="bt_Lap_CumLap"
+                                                            FontSize="20"
+                                                            Width="90"
+                                                            Height="40"
+                                                            Margin="10,0,0,0"
+                                                            Click="bt_Lap_CumLap_Click"></Button>
+                                                </Grid>
+
+                                                <TextBox x:Name="txb_Cum_Lap_Lap_PosX"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Margin="5,0,0,0"
+                                                         Width="100"
+                                                         Height="40"></TextBox>
+                                                <TextBox x:Name="txb_Cum_Lap_Lap_PosY"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Width="100"
+                                                         Margin="5,0,0,0"></TextBox>
+                                                <TextBox x:Name="txb_Cum_Lap_Lap_PosZ"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Width="100"
+                                                         Margin="5,0,0,0"></TextBox>
+                                                <Button Content="Set"
+                                                        Margin="5,0,0,0"
+                                                        Width="90"
+                                                        Height="40"
+                                                        Click="bt_Set_Cum_Lap_Lap"></Button>
+                                            </StackPanel>
+                                            <StackPanel Orientation="Horizontal"
+                                                        Margin="0,10,0,0">
+                                                <Grid VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center">
+                                                    <Button Content="Nhấn"
+                                                            x:Name="bt_Nhan"
+                                                            FontSize="20"
+                                                            Width="90"
+                                                            Margin="10,0,0,0"
+                                                            Click="bt_Nhan_CumLap_Click"/>
+                                                </Grid>
+
+                                                <TextBox x:Name="txb_Cum_Lap_Nhan_PosX"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Margin="5,0,0,0"
+                                                         Width="100"
+                                                         Height="40"></TextBox>
+                                                <TextBox x:Name="txb_Cum_Lap_Nhan_PosY"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Width="100"
+                                                         Margin="5,0,0,0"></TextBox>
+                                                <TextBox x:Name="txb_Cum_Lap_Nhan_PosZ"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Width="100"
+                                                         Margin="5,0,0,0"></TextBox>
+                                                <Button Content="Set"
+                                                        Click="bt_Set_Cum_Lap_Nhan"
+                                                        Margin="5,0,0,0"
+                                                        Width="90"
+                                                        Height="40"></Button>
+                                            </StackPanel>
+                                            <StackPanel Orientation="Horizontal"
+                                                        Margin="0,10,0,0">
+                                                <Grid VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center">
+                                                    <Button Content="Nâng"
+                                                            FontSize="20"
+                                                            Width="90"
+                                                            Height="40"
+                                                            Margin="10,0,0,0"></Button>
+                                                </Grid>
+                                                <TextBox x:Name="txb_Cum_Lap_Pos_Nang"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Margin="5,0,0,0"
+                                                         Width="100"
+                                                         Height="40"></TextBox>
+                                                <Grid VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center">
+                                                    <Button Content="Tay Kẹp"
+                                                            FontSize="20"
+                                                            Height="40"
+                                                            Width="105"></Button>
+                                                </Grid>
+                                                <TextBox x:Name="txb_Cum_Lap_Pos_TayKep"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Width="100"
+                                                         Margin="5,0,0,0"></TextBox>
+                                            </StackPanel>
+                                        </StackPanel>
+                                        <StackPanel Margin="0,10,0,0">
+                                            <Grid Margin="60,0,0,0">
+                                                <Label Content="Bàn Nung"
+                                                       FontSize="20"
+                                                       FontWeight="Bold"
+                                                       HorizontalAlignment="Center"></Label>
+                                            </Grid>
+                                            <StackPanel Orientation="Horizontal"
+                                                        Margin="0,0,0,0">
+                                                <Grid VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center">
+                                                    <Button Content="Thả"
+                                                            x:Name="bt_Tha_BanXoay"
+                                                            FontSize="20"
+                                                            Width="90"
+                                                            Height="40"
+                                                            Margin="10,0,0,0"
+                                                            Click="bt_Tha_BanXoay_Click"></Button>
+                                                </Grid>
+                                                <TextBox x:Name="txb_Ban_Nung_Tha_PosX"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Margin="5,0,0,0"
+                                                         Width="100"
+                                                         Height="40"></TextBox>
+                                                <TextBox x:Name="txb_Ban_Nung_Tha_PosY"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Width="100"
+                                                         Margin="5,0,0,0"></TextBox>
+                                                <TextBox x:Name="txb_Ban_Nung_Tha_PosZ"
+                                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                         FontSize="20"
+                                                         HorizontalContentAlignment="Center"
+                                                         VerticalContentAlignment="Center"
+                                                         BorderBrush="Black"
+                                                         BorderThickness="1"
+                                                         Width="100"
+                                                         Margin="5,0,0,0"></TextBox>
+                                                <Button Content="Set"
+                                                        Margin="5,0,0,0"
+                                                        Width="90"
+                                                        Height="40"
+                                                        Click="bt_Set_Ban_Nung_Tha"></Button>
+                                            </StackPanel>
+                                            <StackPanel Orientation="Horizontal">
+                                                <StackPanel>
+                                                    <StackPanel Orientation="Horizontal"
+                                                                Margin="0,10,0,0">
+                                                        <Label Content="Offset Thả Roto:"
+                                                               FontSize="19"
+                                                               FontFamily="Source Sans Pro"
+                                                               FontWeight="Bold"
+                                                               VerticalAlignment="Center"
+                                                               Width="160"></Label>
+                                                        <TextBox x:Name="txb_Offset_Tha_Roto"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 FontSize="20"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 VerticalContentAlignment="Center"
+                                                                 VerticalAlignment="Center"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 Width="90"
+                                                                 Height="40"
+                                                                 Margin="10,0,0,0"></TextBox>
+                                                        <Label Content="(mm)"
+                                                               FontSize="19"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+
+                                                    </StackPanel>
+                                                    <StackPanel Orientation="Horizontal"
+                                                                Margin="0,5,0,0">
+                                                        <Label Content="Nhiệt Độ Nung:"
+                                                               FontSize="19"
+                                                               FontFamily="Source Sans Pro"
+                                                               FontWeight="Bold"
+                                                               VerticalAlignment="Center"
+                                                               Width="160"></Label>
+                                                        <TextBox x:Name="txb_Temperature"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 FontSize="20"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 VerticalContentAlignment="Center"
+                                                                 VerticalAlignment="Center"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 Width="90"
+                                                                 Height="40"
+                                                                 Margin="10,0,0,0"></TextBox>
+                                                        <Label Content="(℃)"
+                                                               FontSize="19"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+
+                                                    </StackPanel>
+                                                    <StackPanel Orientation="Horizontal"
+                                                                Margin="0,5,0,0">
+
+                                                        <Label Content="Công Suất Nung:"
+                                                               FontSize="19"
+                                                               FontFamily="Source Sans Pro"
+                                                               VerticalAlignment="Center"
+                                                               FontWeight="Bold"
+                                                               Width="160"></Label>
+                                                        <TextBox x:Name="txb_PersenHeater"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 FontSize="20"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 VerticalContentAlignment="Center"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 Width="90"
+                                                                 Height="40"
+                                                                 Margin="10,0,0,0"></TextBox>
+                                                        <Label Content="(%)"
+                                                               FontSize="19"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                    </StackPanel>
+                                                    <StackPanel Orientation="Horizontal"
+                                                                Margin="0,5,0,0">
+                                                        <Label Content="Thời Gian Thổi:"
+                                                               FontSize="19"
+                                                               FontFamily="Source Sans Pro"
+                                                               VerticalAlignment="Center"
+                                                               FontWeight="Bold"
+                                                               Width="160"></Label>
+                                                        <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="txb_Time_Blow"
+                                                                 FontSize="20"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 VerticalContentAlignment="Center"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 Width="90"
+                                                                 Height="40"
+                                                                 Margin="10,0,0,0"></TextBox>
+                                                        <Label Content="(s)"
+                                                               FontSize="19"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                    </StackPanel>
+                                                    <StackPanel Orientation="Horizontal"
+                                                                Margin="0,5,0,0">
+                                                        <Label Content="T° Làm Mát:"
+                                                               FontSize="19"
+                                                               FontFamily="Source Sans Pro"
+                                                               VerticalAlignment="Center"
+                                                               FontWeight="Bold"
+                                                               Width="160"></Label>
+                                                        <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="txb_NhietDo_LamMat"
+                                                                 FontSize="20"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 VerticalContentAlignment="Center"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 Width="90"
+                                                                 Height="40"
+                                                                 Margin="10,0,0,0"></TextBox>
+                                                        <Label Content="(℃)"
+                                                               FontSize="19"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                    </StackPanel>
+                                                </StackPanel>
+                                                <StackPanel>
+                                                    <StackPanel Orientation="Horizontal"
+                                                                Margin="0,10,0,0">
+                                                        <Label Content="ZSafety:"
+                                                               FontSize="19"
+                                                               FontFamily="Source Sans Pro"
+                                                               FontWeight="Bold"
+                                                               VerticalAlignment="Center"
+                                                               Width="90"></Label>
+                                                        <TextBox x:Name="txb_Z_Safety"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 FontSize="20"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 VerticalContentAlignment="Center"
+                                                                 VerticalAlignment="Center"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 Width="90"
+                                                                 Height="40"
+                                                                 Margin="10,0,0,0"></TextBox>
+                                                    </StackPanel>
+                                                    <StackPanel Orientation="Horizontal"
+                                                                Margin="0,5,0,0">
+                                                        <Label Content="PosTrục:"
+                                                               FontSize="19"
+                                                               FontFamily="Source Sans Pro"
+                                                               FontWeight="Bold"
+                                                               VerticalAlignment="Center"
+                                                               Width="90"></Label>
+                                                        <TextBox x:Name="txb_Vtri_Lap_Truc"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 FontSize="20"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 VerticalContentAlignment="Center"
+                                                                 VerticalAlignment="Center"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 Width="90"
+                                                                 Height="40"
+                                                                 Margin="10,0,0,0"></TextBox>
+                                                    </StackPanel>
+                                                    <StackPanel Orientation="Horizontal"
+                                                                Margin="0,5,0,0">
+                                                        <Label Content="Loại Trục:"
+                                                               FontSize="19"
+                                                               FontFamily="Source Sans Pro"
+                                                               FontWeight="Bold"
+                                                               VerticalAlignment="Center"
+                                                               Width="90"></Label>
+                                                        <TextBox x:Name="txb_LoaiTruc"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 FontSize="20"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 VerticalContentAlignment="Center"
+                                                                 VerticalAlignment="Center"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 Width="90"
+                                                                 Height="40"
+                                                                 Margin="10,0,0,0"></TextBox>
+                                                    </StackPanel>
+                                                </StackPanel>
+                                            </StackPanel>
+
+                                            <StackPanel Orientation="Horizontal"
+                                                        Margin="10,30,0,0">
+                                                <Button Content="Xóa"
+                                                        FontSize="20"
+                                                        Height="50"
+                                                        Width="130"
+                                                        Margin="5,0,0,0"
+                                                        Click="bt_Delete_Model_Click"></Button>
+                                                <Button Content="Lưu"
+                                                        FontSize="20"
+                                                        Height="50"
+                                                        Width="130"
+                                                        Margin="215,0,0,0"
+                                                        Click="bt_Save_Model_Click"></Button>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </Grid>
+
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

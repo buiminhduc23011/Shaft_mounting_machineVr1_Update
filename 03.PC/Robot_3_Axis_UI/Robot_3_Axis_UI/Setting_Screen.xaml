@@ -1,0 +1,1119 @@
+﻿<UserControl x:Class="Robot_3_Axis_UI.Setting_Screen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Robot_3_Axis_UI"
+             Loaded="Setting_Screen_Loaded"
+             Unloaded="Setting_Screen_Unloaded"
+             mc:Ignorable="d"
+             d:DesignHeight="845"
+             d:DesignWidth="1645">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Grid Width="822.5"
+                  Height="845"
+                  VerticalAlignment="Top">
+                <Border BorderThickness="1"
+                        BorderBrush="Black"></Border>
+                <StackPanel>
+                    <Label Content="Thông Số Máy"
+                           FontSize="30"
+                           FontStyle="Normal"
+                           FontWeight="Bold"
+                           FontFamily="Source Sans Pro"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"></Label>
+
+                    <Grid Height="238">
+                        <Border BorderThickness="1"
+                                BorderBrush="Black"></Border>
+                        <StackPanel>
+                            <Grid>
+                                <Grid Width="88"
+                                      Height="238"
+                                      HorizontalAlignment="Left">
+                                    <Border BorderBrush="Black"
+                                            BorderThickness="1">
+                                        <StackPanel>
+                                            <Label Content="Limit"
+                                                   FontSize="20"
+                                                   FontStyle="Normal"
+                                                   FontWeight="Bold"
+                                                   FontFamily="Source Sans Pro"
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Center">
+
+                                            </Label>
+                                        </StackPanel>
+                                    </Border>
+                                </Grid>
+                                <Grid Width="736"
+                                      HorizontalAlignment="Right">
+                                    <StackPanel>
+                                        <Grid Height="80">
+                                            <Border BorderBrush="Black"
+                                                    BorderThickness="1"></Border>
+                                            <StackPanel Orientation="Horizontal"
+                                                        HorizontalAlignment="Center"
+                                                        VerticalAlignment="Center">
+                                                <Grid Width="122.5">
+                                                    <StackPanel>
+                                                        <Label Content="X+"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox x:Name="Setting_Limit_X_Pos"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 Height="40"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="122.5">
+                                                    <StackPanel>
+                                                        <Label Content="X-"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="Setting_Limit_X_Neg"
+                                                                 Height="40"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="122.5">
+                                                    <StackPanel>
+                                                        <Label Content="Y+"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="Setting_Limit_Y_Pos"
+                                                                 Height="40"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="122.5">
+                                                    <StackPanel>
+                                                        <Label Content="Y-"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="Setting_Limit_Y_Neg"
+                                                                 Height="40"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="122.5">
+                                                    <StackPanel>
+                                                        <Label Content="Z+"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="Setting_Limit_Z_Pos"
+                                                                 Height="40"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="122.5">
+                                                    <StackPanel>
+                                                        <Label Content="Z-"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="Setting_Limit_Z_Neg"
+                                                                 Height="40"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                            </StackPanel>
+                                        </Grid>
+                                        <Grid Height="80"
+                                              Margin="0,-1,0,0">
+                                            <Border BorderBrush="Black"
+                                                    BorderThickness="1"></Border>
+                                            <StackPanel Orientation="Horizontal"
+                                                        HorizontalAlignment="Center"
+                                                        VerticalAlignment="Center">
+                                                <Grid Width="183.75">
+                                                    <StackPanel>
+                                                        <Label Content="Check Up +"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="setting_Limit_Pos_NangCheck"
+                                                                 Height="40"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="183.75">
+                                                    <StackPanel>
+                                                        <Label Content="Check Up -"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox Height="40"
+                                                                 x:Name="setting_Limit_Neg_NangCheck"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="183.75">
+                                                    <StackPanel>
+                                                        <Label Content="Check Kẹp +"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox Height="40"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="Setting_Limit_Pos_KepCheck"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="183.75">
+                                                    <StackPanel>
+                                                        <Label Content="Check Kẹp -"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox Height="40"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="Setting_Limit_Neg_KepCheck"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                            </StackPanel>
+                                        </Grid>
+                                        <Grid Height="80"
+                                              Margin="0,-1,0,0">
+                                            <Border BorderBrush="Black"
+                                                    BorderThickness="1"></Border>
+                                            <StackPanel Orientation="Horizontal"
+                                                        HorizontalAlignment="Center"
+                                                        VerticalAlignment="Center">
+                                                <Grid Width="183.75">
+                                                    <StackPanel>
+                                                        <Label Content="Lắp Up +"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox Height="40"
+                                                                 x:Name="setting_Limit_Pos_NangLap"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="183.75">
+                                                    <StackPanel>
+                                                        <Label Content="Lắp Up -"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox Height="40"
+                                                                 x:Name="setting_Limit_Neg_NangLap"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="183.75">
+                                                    <StackPanel>
+                                                        <Label Content="Lắp Kẹp +"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox Height="40"
+                                                                 x:Name="Setting_Limit_Pos_KepLap"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="183.75">
+                                                    <StackPanel>
+                                                        <Label Content="Lắp Kẹp -"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox Height="40"
+                                                                 x:Name="Setting_Limit_Neg_KepLap"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                            </StackPanel>
+                                        </Grid>
+                                    </StackPanel>
+
+                                </Grid>
+                            </Grid>
+
+                        </StackPanel>
+
+                    </Grid>
+                    <Grid Height="200">
+                        <Border BorderThickness="1"
+                                BorderBrush="Black"></Border>
+                        <StackPanel>
+                            <Grid>
+                                <Grid Width="88"
+                                      Height="200"
+                                      HorizontalAlignment="Left">
+                                    <Border BorderBrush="Black"
+                                            BorderThickness="1">
+                                        <StackPanel>
+                                            <Button Content="Sửa"
+                                                    Click="bt_Edit_Velocity_Click"
+                                                    HorizontalAlignment="Center"
+                                                    Margin="0,60,0,0"
+                                                    Height="40"
+                                                    Width="80"></Button>
+                                            <Button Content="Lưu"
+                                                    Click="bt_Save_Velocity_Click"
+                                                    HorizontalAlignment="Center"
+                                                    Margin="0,10,0,0"
+                                                    Height="40"
+                                                    Width="80"></Button>
+                                        </StackPanel>
+                                    </Border>
+                                </Grid>
+                                <Grid Width="736"
+                                      HorizontalAlignment="Right">
+                                    <StackPanel>
+                                        <Grid Height="120">
+                                            <Border BorderBrush="Black"
+                                                    BorderThickness="1"></Border>
+                                            <StackPanel>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Grid Width="368">
+                                                        <Label Content="Vận Tốc Thủ Công"
+                                                               FontSize="20"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               FontFamily="Source Sans Pro"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center" />
+                                                    </Grid>
+                                                    <Grid Width="368">
+                                                        <Label Content="Vận Tốc Tự Động"
+                                                               FontSize="20"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               FontFamily="Source Sans Pro"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center" />
+                                                    </Grid>
+                                                </StackPanel>
+                                                <StackPanel Orientation="Horizontal"
+                                                            HorizontalAlignment="Center"
+                                                            VerticalAlignment="Center">
+                                                    <Grid Width="122.5">
+                                                        <StackPanel>
+                                                            <Label Content="X"
+                                                                   FontSize="15"
+                                                                   Height="25"
+                                                                   FontStyle="Normal"
+                                                                   FontWeight="Bold"
+                                                                   HorizontalAlignment="Center"
+                                                                   VerticalAlignment="Center"
+                                                                   FontFamily="Source Sans Pro"></Label>
+                                                            <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                     x:Name="txb_Velocity_X_Man"
+                                                                     Height="40"
+                                                                     Width="100"
+                                                                     BorderBrush="Black"
+                                                                     BorderThickness="1"
+                                                                     VerticalContentAlignment="Center"
+                                                                     HorizontalContentAlignment="Center"
+                                                                     HorizontalAlignment="Center"
+                                                                     FontSize="20"
+                                                                     FontStyle="Normal"
+                                                                     FontFamily="Source Sans Pro"></TextBox>
+                                                        </StackPanel>
+                                                    </Grid>
+                                                    <Grid Width="122.5">
+                                                        <StackPanel>
+                                                            <Label Content="Y"
+                                                                   FontSize="15"
+                                                                   Height="25"
+                                                                   FontStyle="Normal"
+                                                                   FontWeight="Bold"
+                                                                   HorizontalAlignment="Center"
+                                                                   VerticalAlignment="Center"
+                                                                   FontFamily="Source Sans Pro"></Label>
+                                                            <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                     x:Name="txb_Velocity_Y_Man"
+                                                                     Height="40"
+                                                                     Width="100"
+                                                                     BorderBrush="Black"
+                                                                     BorderThickness="1"
+                                                                     VerticalContentAlignment="Center"
+                                                                     HorizontalContentAlignment="Center"
+                                                                     HorizontalAlignment="Center"
+                                                                     FontSize="20"
+                                                                     FontStyle="Normal"
+                                                                     FontFamily="Source Sans Pro"></TextBox>
+                                                        </StackPanel>
+                                                    </Grid>
+                                                    <Grid Width="122.5">
+                                                        <StackPanel>
+                                                            <Label Content="Z"
+                                                                   FontSize="15"
+                                                                   Height="25"
+                                                                   FontStyle="Normal"
+                                                                   FontWeight="Bold"
+                                                                   HorizontalAlignment="Center"
+                                                                   VerticalAlignment="Center"
+                                                                   FontFamily="Source Sans Pro"></Label>
+                                                            <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                     x:Name="txb_Velocity_Z_Man"
+                                                                     Height="40"
+                                                                     Width="100"
+                                                                     BorderBrush="Black"
+                                                                     BorderThickness="1"
+                                                                     VerticalContentAlignment="Center"
+                                                                     HorizontalContentAlignment="Center"
+                                                                     HorizontalAlignment="Center"
+                                                                     FontSize="20"
+                                                                     FontStyle="Normal"
+                                                                     FontFamily="Source Sans Pro"></TextBox>
+                                                        </StackPanel>
+                                                    </Grid>
+                                                    <Grid Width="122.5">
+                                                        <StackPanel>
+                                                            <Label Content="X"
+                                                                   FontSize="15"
+                                                                   Height="25"
+                                                                   FontStyle="Normal"
+                                                                   FontWeight="Bold"
+                                                                   HorizontalAlignment="Center"
+                                                                   VerticalAlignment="Center"
+                                                                   FontFamily="Source Sans Pro"></Label>
+                                                            <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                     x:Name="txb_Velocity_X_Auto"
+                                                                     Height="40"
+                                                                     Width="100"
+                                                                     BorderBrush="Black"
+                                                                     BorderThickness="1"
+                                                                     VerticalContentAlignment="Center"
+                                                                     HorizontalContentAlignment="Center"
+                                                                     HorizontalAlignment="Center"
+                                                                     FontSize="20"
+                                                                     FontStyle="Normal"
+                                                                     FontFamily="Source Sans Pro"></TextBox>
+                                                        </StackPanel>
+                                                    </Grid>
+                                                    <Grid Width="122.5">
+                                                        <StackPanel>
+                                                            <Label Content="Y"
+                                                                   FontSize="15"
+                                                                   Height="25"
+                                                                   FontStyle="Normal"
+                                                                   FontWeight="Bold"
+                                                                   HorizontalAlignment="Center"
+                                                                   VerticalAlignment="Center"
+                                                                   FontFamily="Source Sans Pro"></Label>
+                                                            <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                     x:Name="txb_Velocity_Y_Auto"
+                                                                     Height="40"
+                                                                     Width="100"
+                                                                     BorderBrush="Black"
+                                                                     BorderThickness="1"
+                                                                     VerticalContentAlignment="Center"
+                                                                     HorizontalContentAlignment="Center"
+                                                                     HorizontalAlignment="Center"
+                                                                     FontSize="20"
+                                                                     FontStyle="Normal"
+                                                                     FontFamily="Source Sans Pro"></TextBox>
+                                                        </StackPanel>
+                                                    </Grid>
+                                                    <Grid Width="122.5">
+                                                        <StackPanel>
+                                                            <Label Content="Z"
+                                                                   FontSize="15"
+                                                                   Height="25"
+                                                                   FontStyle="Normal"
+                                                                   FontWeight="Bold"
+                                                                   HorizontalAlignment="Center"
+                                                                   VerticalAlignment="Center"
+                                                                   FontFamily="Source Sans Pro"></Label>
+                                                            <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                     x:Name="txb_Velocity_Z_Auto"
+                                                                     Height="40"
+                                                                     Width="100"
+                                                                     BorderBrush="Black"
+                                                                     BorderThickness="1"
+                                                                     VerticalContentAlignment="Center"
+                                                                     HorizontalContentAlignment="Center"
+                                                                     HorizontalAlignment="Center"
+                                                                     FontSize="20"
+                                                                     FontStyle="Normal"
+                                                                     FontFamily="Source Sans Pro"></TextBox>
+                                                        </StackPanel>
+                                                    </Grid>
+                                                </StackPanel>
+                                            </StackPanel>
+
+                                        </Grid>
+                                        <Grid Height="80"
+                                              Margin="0,-1,0,0">
+                                            <Border BorderBrush="Black"
+                                                    BorderThickness="1"></Border>
+                                            <StackPanel Orientation="Horizontal"
+                                                        HorizontalAlignment="Center"
+                                                        VerticalAlignment="Center">
+                                                <Grid Width="183.75">
+                                                    <StackPanel>
+                                                        <Label Content="Cụm Kiểm Tra Nâng"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="txb_Velocity_Cum_Check_Nang"
+                                                                 Height="40"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="183.75">
+                                                    <StackPanel>
+                                                        <Label Content="Cụm Kiểm Tra Kẹp"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox Height="40"
+                                                                 x:Name="txb_Velocity_Cum_Check_Kep"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="183.75">
+                                                    <StackPanel>
+                                                        <Label Content="Cụm Lắp Nâng"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox Height="40"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="txb_Velocity_Cum_Lap_Nang"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                                <Grid Width="183.75">
+                                                    <StackPanel>
+                                                        <Label Content="Cụm Lắp Kẹp"
+                                                               FontSize="15"
+                                                               Height="25"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"
+                                                               FontFamily="Source Sans Pro"></Label>
+                                                        <TextBox Height="40"
+                                                                 Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                 x:Name="txb_Velocity_Cum_Lap_Kep"
+                                                                 Width="100"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="1"
+                                                                 VerticalContentAlignment="Center"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 HorizontalAlignment="Center"
+                                                                 FontSize="20"
+                                                                 FontStyle="Normal"
+                                                                 FontFamily="Source Sans Pro"></TextBox>
+                                                    </StackPanel>
+                                                </Grid>
+                                            </StackPanel>
+                                        </Grid>
+
+                                    </StackPanel>
+
+                                </Grid>
+                            </Grid>
+
+                        </StackPanel>
+
+                    </Grid>
+                    <Grid Height="200">
+                        <Border BorderThickness="1"
+                                BorderBrush="Black"></Border>
+                        <StackPanel>
+                            <Grid>
+                                <Grid Width="88"
+                                      Height="120"
+                                      HorizontalAlignment="Left">
+                                    <Border BorderBrush="Black"
+                                            BorderThickness="1">
+                                        <StackPanel>
+                                            <Button Content="Sửa"
+                                                    Click="bt_Edit_Offset"
+                                                    HorizontalAlignment="Center"
+                                                    Margin="0,10,0,0"
+                                                    Height="40"
+                                                    Width="80"></Button>
+                                            <Button Content="Lưu"
+                                                    Click="bt_Save_Offset"
+                                                    HorizontalAlignment="Center"
+                                                    Margin="0,10,0,0"
+                                                    Height="40"
+                                                    Width="80"></Button>
+                                        </StackPanel>
+                                    </Border>
+                                </Grid>
+                                <Grid Width="736"
+                                      HorizontalAlignment="Right">
+                                    <StackPanel>
+                                        <Grid Height="120">
+                                            <Border BorderBrush="Black"
+                                                    BorderThickness="1"></Border>
+                                            <StackPanel>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Grid Width="368">
+                                                        <Label Content="Offset Cụm Lắp"
+                                                               FontSize="20"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               FontFamily="Source Sans Pro"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center" />
+                                                    </Grid>
+                                                    <Grid Width="368">
+                                                        <Label Content="Offset Cụm Đo"
+                                                               FontSize="20"
+                                                               FontStyle="Normal"
+                                                               FontWeight="Bold"
+                                                               FontFamily="Source Sans Pro"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center" />
+                                                    </Grid>
+                                                </StackPanel>
+                                                <StackPanel Orientation="Horizontal"
+                                                            HorizontalAlignment="Center"
+                                                            VerticalAlignment="Center">
+                                                    <Grid Width="183.5">
+                                                        <StackPanel>
+                                                            <Label Content="Tay Kẹp"
+                                                                   FontSize="15"
+                                                                   Height="25"
+                                                                   FontStyle="Normal"
+                                                                   FontWeight="Bold"
+                                                                   HorizontalAlignment="Center"
+                                                                   VerticalAlignment="Center"
+                                                                   FontFamily="Source Sans Pro"></Label>
+                                                            <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                    x:Name="txb_Of_TayKep_CumLap"
+                                                                     Height="40"
+                                                                     Width="100"
+                                                                     BorderBrush="Black"
+                                                                     BorderThickness="1"
+                                                                     VerticalContentAlignment="Center"
+                                                                     HorizontalContentAlignment="Center"
+                                                                     HorizontalAlignment="Center"
+                                                                     FontSize="20"
+                                                                     FontStyle="Normal"
+                                                                     FontFamily="Source Sans Pro"></TextBox>
+                                                        </StackPanel>
+                                                    </Grid>
+                                                    <Grid Width="183.5">
+                                                        <StackPanel>
+                                                            <Label Content="Bộ Nâng"
+                                                                   FontSize="15"
+                                                                   Height="25"
+                                                                   FontStyle="Normal"
+                                                                   FontWeight="Bold"
+                                                                   HorizontalAlignment="Center"
+                                                                   VerticalAlignment="Center"
+                                                                   FontFamily="Source Sans Pro"></Label>
+                                                            <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                     x:Name="txb_Of_Nang_CumLap"
+                                                                     Height="40"
+                                                                     Width="100"
+                                                                     BorderBrush="Black"
+                                                                     BorderThickness="1"
+                                                                     VerticalContentAlignment="Center"
+                                                                     HorizontalContentAlignment="Center"
+                                                                     HorizontalAlignment="Center"
+                                                                     FontSize="20"
+                                                                     FontStyle="Normal"
+                                                                     FontFamily="Source Sans Pro"></TextBox>
+                                                        </StackPanel>
+                                                    </Grid>
+                                                    <Grid Width="183.5">
+                                                        <StackPanel>
+                                                            <Label Content="Tay Kẹp"
+                                                                   FontSize="15"
+                                                                   Height="25"
+                                                                   FontStyle="Normal"
+                                                                   FontWeight="Bold"
+                                                                   HorizontalAlignment="Center"
+                                                                   VerticalAlignment="Center"
+                                                                   FontFamily="Source Sans Pro"></Label>
+                                                            <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                     x:Name="txb_Of_TayKep_CumDo"
+                                                                     Height="40"
+                                                                     Width="100"
+                                                                     BorderBrush="Black"
+                                                                     BorderThickness="1"
+                                                                     VerticalContentAlignment="Center"
+                                                                     HorizontalContentAlignment="Center"
+                                                                     HorizontalAlignment="Center"
+                                                                     FontSize="20"
+                                                                     FontStyle="Normal"
+                                                                     FontFamily="Source Sans Pro"></TextBox>
+                                                        </StackPanel>
+                                                    </Grid>
+                                                    <Grid Width="183.5">
+                                                        <StackPanel>
+                                                            <Label Content="Bộ Nâng"
+                                                                   FontSize="15"
+                                                                   Height="25"
+                                                                   FontStyle="Normal"
+                                                                   FontWeight="Bold"
+                                                                   HorizontalAlignment="Center"
+                                                                   VerticalAlignment="Center"
+                                                                   FontFamily="Source Sans Pro"></Label>
+                                                            <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                                                     x:Name="txb_Of_Nang_CumDo"
+                                                                     Height="40"
+                                                                     Width="100"
+                                                                     BorderBrush="Black"
+                                                                     BorderThickness="1"
+                                                                     VerticalContentAlignment="Center"
+                                                                     HorizontalContentAlignment="Center"
+                                                                     HorizontalAlignment="Center"
+                                                                     FontSize="20"
+                                                                     FontStyle="Normal"
+                                                                     FontFamily="Source Sans Pro"></TextBox>
+                                                        </StackPanel>
+                                                    </Grid>
+                                                </StackPanel>
+                                            </StackPanel>
+
+                                        </Grid>
+                                        
+                                    </StackPanel>
+
+                                </Grid>
+                            </Grid>
+
+                        </StackPanel>
+
+                    </Grid>
+                    <Grid Height="80">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Ngày Bảo Trì:"
+                                   FontSize="15"
+                                   Height="25"
+                                   FontStyle="Normal"
+                                   FontWeight="Bold"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"
+                                   FontFamily="Source Sans Pro"></Label>
+                            <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                     x:Name="txb_Time_Maintance"
+                                     IsEnabled="False"
+                                     Height="50"
+                                     Width="150"
+                                     BorderBrush="Black"
+                                     BorderThickness="1"
+                                     VerticalContentAlignment="Center"
+                                     HorizontalContentAlignment="Center"
+                                     HorizontalAlignment="Center"
+                                     FontSize="20"
+                                     FontStyle="Normal"
+                                     FontFamily="Source Sans Pro"></TextBox>
+                            <Label Content="Ngày Bảo Trì Tiếp Theo:"
+                                   Margin="20,0,0,0"
+                                   FontSize="15"
+                                   Height="25"
+                                   FontStyle="Normal"
+                                   FontWeight="Bold"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"
+                                   FontFamily="Source Sans Pro"></Label>
+                            <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                     x:Name="txb_NextTime_Maintance"
+                                     IsEnabled="False"
+                                     Height="50"
+                                     Width="150"
+                                     BorderBrush="Black"
+                                     BorderThickness="1"
+                                     VerticalContentAlignment="Center"
+                                     HorizontalContentAlignment="Center"
+                                     HorizontalAlignment="Center"
+                                     FontSize="20"
+                                     FontStyle="Normal"
+                                     FontFamily="Source Sans Pro"></TextBox>
+                            <Button Content="Set"
+                                    Height="50"
+                                    Width="90"
+                                    Margin="10,0,0,0"
+                                    Click="bt_Set_Time_Maintance_Click">
+                            </Button>
+                            <Button Content="Save"
+                                    Height="50"
+                                    Width="90"
+                                    Margin="10,0,0,0"
+                                    Click="bt_Save_Time_Maintance_Click">
+                            </Button>
+                        </StackPanel>
+                    </Grid>
+                    <Button Content="Tắt Còi"
+                            x:Name="bt_Setting_Off_Buzzer"
+                            Height="50"
+                            Width="100"
+                            Margin="0,10,700,0"
+                            Click="bt_Setting_Off_Buzzer_Click">
+                    </Button>
+
+
+                </StackPanel>
+            </Grid>
+            <Grid Width="822.5"
+                  Height="845"
+                  VerticalAlignment="Top">
+                <Border BorderThickness="1"
+                        BorderBrush="Black"></Border>
+                <StackPanel>
+                    <Label Content="Hệ Thống"
+                           FontSize="30"
+                           FontStyle="Normal"
+                           FontWeight="Bold"
+                           FontFamily="Source Sans Pro"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"></Label>
+                    <StackPanel Orientation="Horizontal"
+                                Margin="0,10,0,0">
+                        <Grid Width="405">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="IP Server:"
+                                       Width="150"
+                                       FontSize="20"
+                                       FontWeight="Bold"></Label>
+                                <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                         x:Name="txb_IP_Server"
+                                         FontSize="20"
+                                         FontWeight="Bold"
+                                         HorizontalContentAlignment="Center"
+                                         VerticalContentAlignment="Center"
+                                         BorderBrush="Black"
+                                         BorderThickness="1"
+                                         Width="250"></TextBox>
+                            </StackPanel>
+
+                        </Grid>
+                        <Grid Width="405">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Port Server:"
+                                       Width="150"
+                                       FontSize="20"
+                                       FontWeight="Bold"></Label>
+                                <TextBox Style="{StaticResource BlackCaretTextBoxStyle}"
+                                         x:Name="txb_Port_Server"
+                                         FontSize="20"
+                                         FontWeight="Bold"
+                                         HorizontalContentAlignment="Center"
+                                         VerticalContentAlignment="Center"
+                                         BorderBrush="Black"
+                                         BorderThickness="1"
+                                         Width="250"></TextBox>
+                            </StackPanel>
+
+                        </Grid>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                        <Grid Width="405">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="IP PLC:"
+                                       Width="150"
+                                       FontSize="20"
+                                       FontWeight="Bold"></Label>
+                                <TextBox x:Name="txb_IPServer"
+                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                         FontSize="20"
+                                         FontWeight="Bold"
+                                         HorizontalContentAlignment="Center"
+                                         VerticalContentAlignment="Center"
+                                         BorderBrush="Black"
+                                         BorderThickness="1"
+                                         Width="250"></TextBox>
+                            </StackPanel>
+
+                        </Grid>
+                        <Grid Width="405">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Port PLC:"
+                                       Width="150"
+                                       FontSize="20"
+                                       FontWeight="Bold"></Label>
+                                <TextBox x:Name="txb_Port"
+                                         Style="{StaticResource BlackCaretTextBoxStyle}"
+                                         FontSize="20"
+                                         FontWeight="Bold"
+                                         HorizontalContentAlignment="Center"
+                                         VerticalContentAlignment="Center"
+                                         BorderBrush="Black"
+                                         BorderThickness="1"
+                                         Width="250"></TextBox>
+                            </StackPanel>
+
+                        </Grid>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal"
+                                Margin="0,10,0,0">
+                        <Grid Width="405">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="QR Out Tray:"
+                                       Width="150"
+                                       FontSize="20"
+                                       FontStyle="Normal"
+                                       FontWeight="Bold"
+                                       FontFamily="Source Sans Pro"></Label>
+                                <ComboBox x:Name="cbx_Comport_OutTray"
+                                          Width="250"
+                                          FontSize="20"
+                                          BorderBrush="Black"
+                                          BorderThickness="1"
+                                          HorizontalContentAlignment="Center"
+                                          DropDownOpened="comPort_OutTray_DropDownOpened">
+                                </ComboBox>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Width="405">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="QR In Tray:"
+                                       Width="150"
+                                       FontSize="20"
+                                       FontStyle="Normal"
+                                       FontWeight="Bold"
+                                       FontFamily="Source Sans Pro"></Label>
+                                <ComboBox x:Name="cbx_Comport_InTray"
+                                          Width="250"
+                                          FontSize="20"
+                                          BorderBrush="Black"
+                                          BorderThickness="1"
+                                          HorizontalContentAlignment="Center"
+                                          DropDownOpened="comPort_InTray_DropDownOpened">
+                                </ComboBox>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+
+                    <StackPanel>
+                        <Button Content="Save"
+                                Height="50"
+                                Width="100"
+                                Margin="645,610,0,0"
+                                Click="bt_Save_Click"></Button>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+
+    </Grid>
+</UserControl>

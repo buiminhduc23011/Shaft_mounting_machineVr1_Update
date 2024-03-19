@@ -1,0 +1,82 @@
+﻿<UserControl x:Class="Robot_3_Axis_UI.Mode_1_Cum_Lap"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Robot_3_Axis_UI"
+             mc:Ignorable="d"
+             Loaded="Mode_1_Cum_Lap_Screen_Loaded"
+             Unloaded="Mode_1_Cum_Lap_Screen_Unloaded"
+             d:DesignHeight="220" d:DesignWidth="590">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Vị Trí/mm"
+                   FontSize="20"
+                   FontStyle="Normal"
+                   FontWeight="Bold"
+                   FontFamily="Source Sans Pro"
+                   VerticalContentAlignment="Center"
+                   Margin="470,0,0,0"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+                    Margin="0,10,0,0">
+            <Button Margin="10,0,0,0"
+                    x:Name="bt_Origin_NangCumLap"
+                    Content="Nâng"
+                    FontSize="20"
+                    Height="80"
+                    FontFamily="Source Sans Pro"
+                    FontWeight="Bold"
+                    Width="100"></Button>
+            <Button Content="Chạy"
+                    Margin="10,0,0,0"
+                    x:Name="bt_Jog_Add_NangLap"
+                    Width="320"
+                    Height="80"
+                    Click="Nang_Cum_Lap_Jog_ADD_Click"></Button>
+            <TextBox x:Name="txb_Pos_NangLap"
+                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                     Height="80"
+                     Width="135"
+                     BorderBrush="Black"
+                     BorderThickness="1"
+                     VerticalContentAlignment="Center"
+                     HorizontalContentAlignment="Center"
+                     FontSize="20"
+                     FontStyle="Normal"
+                     FontFamily="Source Sans Pro"
+                     Margin="10,0,0,0"
+                     TextChanged="txb_Pos_NangLap_TextChanged"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+                    Margin="0,10,0,0">
+            <Button Margin="10,0,0,0"
+                    x:Name="bt_Origin_KepCumLap"
+                    Content="Kẹp"
+                    FontSize="20"
+                    Height="80"
+                    FontFamily="Source Sans Pro"
+                    FontWeight="Bold"
+                    Width="100"></Button>
+            <Button Content="Chạy"
+                    x:Name="bt_Jog_Sub_KepLap"
+                    Width="320"
+                    Height="80"
+                    Margin="10,0,0,0"
+                    Click="Kep_Cum_Lap_Jog_SUB_Click"></Button>
+            <TextBox x:Name="txb_Pos_KepLap"
+                     Style="{StaticResource BlackCaretTextBoxStyle}"
+                     Height="80"
+                     Width="135"
+                     BorderBrush="Black"
+                     BorderThickness="1"
+                     VerticalContentAlignment="Center"
+                     HorizontalContentAlignment="Center"
+                     FontSize="20"
+                     FontStyle="Normal"
+                     FontFamily="Source Sans Pro"
+                     Margin="10,0,0,0"
+                     TextChanged="txb_Pos_KepLap_TextChanged"></TextBox>
+        </StackPanel>
+    </StackPanel>
+</UserControl>

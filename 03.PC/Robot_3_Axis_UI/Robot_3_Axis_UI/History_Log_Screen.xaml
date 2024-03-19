@@ -1,0 +1,114 @@
+﻿<UserControl x:Class="Robot_3_Axis_UI.History_Log_Screen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Robot_3_Axis_UI"
+             Loaded="History_Screen_Loaded"
+             Unloaded="History_Screen_Unloaded"
+             mc:Ignorable="d"
+             d:DesignHeight="840"
+             d:DesignWidth="1630">
+    <Grid Height="840"
+          Width="1630">
+        <StackPanel Orientation="Horizontal">
+            <Grid Width="815">
+                <Border BorderBrush="Black"
+                        BorderThickness="1"></Border>
+                <StackPanel>
+                    <Label Content="Lịch Sử Lỗi Máy"
+                           FontSize="20"
+                           FontStyle="Normal"
+                           FontWeight="Bold"
+                           FontFamily="Source Sans Pro"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"></Label>
+                    <DataGrid x:Name="List_Error"
+                              AutoGenerateColumns="False"
+                              FontSize="20"
+                              Foreground="Black"
+                              BorderBrush="Black"
+                              BorderThickness="1"
+                              HorizontalGridLinesBrush="Black"
+                              CanUserResizeColumns="False"
+                              CanUserResizeRows="False"
+                              IsReadOnly="True"
+                              Grid.ColumnSpan="2"
+                              Height="805"
+                              Width="810">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="STT"
+                                                Binding="{Binding STT}"
+                                                Width="80">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="HorizontalAlignment"
+                                                Value="Center" />
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Header="Nội Dung"
+                                                Binding="{Binding Content_}"
+                                                Width="450" />
+                            <DataGridTextColumn Header="Thời Gian"
+                                                Binding="{Binding Time}"
+                                                Width="280" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+            </Grid>
+            <Grid Width="815">
+                <Border BorderBrush="Black"
+                        BorderThickness="1"></Border>
+                <StackPanel>
+                    <Label Content="Lịch Sử Bảo Trì Bảo Dưỡng"
+                           FontSize="20"
+                           FontStyle="Normal"
+                           FontWeight="Bold"
+                           FontFamily="Source Sans Pro"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"></Label>
+                    <Grid>
+
+                        <DataGrid x:Name="List_Mainten"
+                                  AutoGenerateColumns="False"
+                                  FontSize="20"
+                                  Foreground="Black"
+                                  BorderBrush="Black"
+                                  BorderThickness="1"
+                                  HorizontalGridLinesBrush="Black"
+                                  CanUserResizeColumns="False"
+                                  CanUserResizeRows="False"
+                                  IsReadOnly="True"
+                                  Grid.ColumnSpan="2"
+                                  Height="805"
+                                  Width="810">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="STT"
+                                                    Binding="{Binding STT}"
+                                                    Width="80">
+                                    <DataGridTextColumn.ElementStyle>
+                                        <Style TargetType="{x:Type TextBlock}">
+                                            <Setter Property="HorizontalAlignment"
+                                                    Value="Center" />
+                                        </Style>
+                                    </DataGridTextColumn.ElementStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Nội Dung"
+                                                    Binding="{Binding Content_}"
+                                                    Width="550" />
+                                <DataGridTextColumn Header="Thời Gian"
+                                                    Binding="{Binding Time}"
+                                                    Width="285" />
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                    
+                </StackPanel>
+            </Grid>
+
+        </StackPanel>
+
+    </Grid>
+
+</UserControl>

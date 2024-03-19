@@ -1,0 +1,628 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\class\\read_plc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\class\\read_plc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\mode_2_cum_lap.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\mode_2_cum_lap.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\mode_2_cum_do.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\mode_2_cum_do.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\mode_2_cum_lap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\mode_2_cum_lap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\mode_2_cum_do.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\mode_2_cum_do.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\mode2_xyz.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\mode2_xyz.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\resources\\en.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\resources\\en.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\resources\\vi.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\resources\\vi.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\mode_1_cum_lap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\mode_1_cum_lap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\mode_1_cum_do.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\mode_1_cum_do.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\mode_1_cum_do.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\mode_1_cum_do.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\manual_screen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\manual_screen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\mode_1_cum_lap.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\mode_1_cum_lap.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\mode1_xyz.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\mode1_xyz.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\manual_screen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\manual_screen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\auto_screen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\auto_screen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\mode2_xyz.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\mode2_xyz.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\history_log_screen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\history_log_screen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\gpio_screen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\gpio_screen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\robot_3_axis_ui\\model_screen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\model_screen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\robot_3_axis_ui\\model_screen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\model_screen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\class\\list_model_temp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\class\\list_model_temp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\robot_3_axis_ui\\class\\path.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\class\\path.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\robot_3_axis_ui\\auto_screen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\auto_screen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\robot_3_axis_ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\robot_3_axis_ui\\gpio_screen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\gpio_screen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\history_log_screen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\history_log_screen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|d:\\onedrive\\28. \u0111\u1EE9c rnd\\04.shiv12\\01.rotor\\03.version1_caitien\\03.pc\\robot_3_axis_ui\\robot_3_axis_ui\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ducbu\\AppData\\Local\\Temp\\.vsdbgsrc\\a92feed8b6777f93e6ebc4d0fca2a0621f040397364ce99ed84522bb15de5a9f\\EventRoute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\robot_3_axis_ui\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\robot_3_axis_ui\\class\\items_error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\class\\items_error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\robot_3_axis_ui\\class\\list_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\class\\list_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\robot_3_axis_ui\\class\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA59CA40-412C-4010-AB91-8CC4FD905E29}|Robot_3_Axis_UI\\Robot_3_Axis_UI.csproj|solutionrelative:robot_3_axis_ui\\class\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 382,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "vi.xaml",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Resources\\vi.xaml",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Resources\\vi.xaml",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Resources\\vi.xaml",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Resources\\vi.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T03:14:50.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "en.xaml",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Resources\\en.xaml",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Resources\\en.xaml",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Resources\\en.xaml",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Resources\\en.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T03:14:43.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Mode_2_Cum_Do.xaml",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode_2_Cum_Do.xaml",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Mode_2_Cum_Do.xaml",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode_2_Cum_Do.xaml",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Mode_2_Cum_Do.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T03:07:01.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Mode_1_Cum_Do.xaml.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode_1_Cum_Do.xaml.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Mode_1_Cum_Do.xaml.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode_1_Cum_Do.xaml.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Mode_1_Cum_Do.xaml.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAgwFMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T01:53:04.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mode_2_Cum_Do.xaml.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode_2_Cum_Do.xaml.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Mode_2_Cum_Do.xaml.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode_2_Cum_Do.xaml.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Mode_2_Cum_Do.xaml.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAcwHgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T01:53:31.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mode_2_Cum_Lap.xaml.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode_2_Cum_Lap.xaml.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Mode_2_Cum_Lap.xaml.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode_2_Cum_Lap.xaml.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Mode_2_Cum_Lap.xaml.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAswI4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T01:53:43.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Mode_1_Cum_Do.xaml",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode_1_Cum_Do.xaml",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Mode_1_Cum_Do.xaml",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode_1_Cum_Do.xaml",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Mode_1_Cum_Do.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T01:39:30.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAqwKoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T08:09:22.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Read_PLC.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Class\\Read_PLC.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Class\\Read_PLC.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Class\\Read_PLC.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Class\\Read_PLC.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T01:49:12.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Mode_2_Cum_Lap.xaml",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode_2_Cum_Lap.xaml",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Mode_2_Cum_Lap.xaml",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode_2_Cum_Lap.xaml",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Mode_2_Cum_Lap.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T03:15:20.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Mode2_XYZ.xaml",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode2_XYZ.xaml",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Mode2_XYZ.xaml",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode2_XYZ.xaml",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Mode2_XYZ.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T03:15:24.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Mode_1_Cum_Lap.xaml",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode_1_Cum_Lap.xaml",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Mode_1_Cum_Lap.xaml",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode_1_Cum_Lap.xaml",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Mode_1_Cum_Lap.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T03:01:51.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Mode_1_Cum_Lap.xaml.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode_1_Cum_Lap.xaml.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Mode_1_Cum_Lap.xaml.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode_1_Cum_Lap.xaml.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Mode_1_Cum_Lap.xaml.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAUwKsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T01:53:20.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Mode1_XYZ.xaml.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode1_XYZ.xaml.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Mode1_XYZ.xaml.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode1_XYZ.xaml.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Mode1_XYZ.xaml.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAgwF4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T01:54:04.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Manual_Screen.xaml",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Manual_Screen.xaml",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Manual_Screen.xaml",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Manual_Screen.xaml",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Manual_Screen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T01:39:37.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Manual_Screen.xaml.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Manual_Screen.xaml.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Manual_Screen.xaml.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Manual_Screen.xaml.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Manual_Screen.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T02:14:58.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Auto_Screen.xaml.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Auto_Screen.xaml.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Auto_Screen.xaml.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Auto_Screen.xaml.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Auto_Screen.xaml.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAUwGcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T01:41:18.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Mode2_XYZ.xaml.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode2_XYZ.xaml.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Mode2_XYZ.xaml.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Mode2_XYZ.xaml.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Mode2_XYZ.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG8AAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T01:54:15.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "History_Log_Screen.xaml.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\History_Log_Screen.xaml.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\History_Log_Screen.xaml.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\History_Log_Screen.xaml.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\History_Log_Screen.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T02:05:56.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GPIO_Screen.xaml.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\GPIO_Screen.xaml.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\GPIO_Screen.xaml.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\GPIO_Screen.xaml.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\GPIO_Screen.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T01:40:21.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\App.xaml.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\App.xaml.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T01:41:56.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Model_Screen.xaml.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Model_Screen.xaml.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Model_Screen.xaml.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Model_Screen.xaml.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Model_Screen.xaml.cs",
+              "ViewState": "AQIAAF8CAAAAAAAAAAAwwG8CAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T08:09:20.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Model_Screen.xaml",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Model_Screen.xaml",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Model_Screen.xaml",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Model_Screen.xaml",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Model_Screen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-25T03:45:26.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\App.xaml",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\App.xaml",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\App.xaml",
+              "RelativeToolTip": "Robot_3_Axis_UI\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T01:39:46.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "History_Log_Screen.xaml",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\History_Log_Screen.xaml",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\History_Log_Screen.xaml",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\History_Log_Screen.xaml",
+              "RelativeToolTip": "Robot_3_Axis_UI\\History_Log_Screen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T01:39:41.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "List_Model_Temp.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Class\\List_Model_Temp.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Class\\List_Model_Temp.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Class\\List_Model_Temp.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Class\\List_Model_Temp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T01:49:57.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Auto_Screen.xaml",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Auto_Screen.xaml",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Auto_Screen.xaml",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Auto_Screen.xaml",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Auto_Screen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-27T07:48:11.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GPIO_Screen.xaml",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\GPIO_Screen.xaml",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\GPIO_Screen.xaml",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\GPIO_Screen.xaml",
+              "RelativeToolTip": "Robot_3_Axis_UI\\GPIO_Screen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-27T07:48:05.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Path.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Class\\Path.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Class\\Path.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Class\\Path.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Class\\Path.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T06:21:49.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\LoginWindow.xaml",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\LoginWindow.xaml",
+              "RelativeToolTip": "Robot_3_Axis_UI\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T01:39:40.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\MainWindow.xaml",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\MainWindow.xaml",
+              "RelativeToolTip": "Robot_3_Axis_UI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-27T07:48:13.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EventRoute.cs",
+              "DocumentMoniker": "C:\\Users\\ducbu\\AppData\\Local\\Temp\\.vsdbgsrc\\a92feed8b6777f93e6ebc4d0fca2a0621f040397364ce99ed84522bb15de5a9f\\EventRoute.cs",
+              "ToolTip": "C:\\Users\\ducbu\\AppData\\Local\\Temp\\.vsdbgsrc\\a92feed8b6777f93e6ebc4d0fca2a0621f040397364ce99ed84522bb15de5a9f\\EventRoute.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T08:37:16.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\packages.config",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\packages.config",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\packages.config",
+              "RelativeToolTip": "Robot_3_Axis_UI\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-02-24T08:09:22.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Items_Error.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Class\\Items_Error.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Class\\Items_Error.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Class\\Items_Error.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Class\\Items_Error.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T08:09:22.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "List_Model.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Class\\List_Model.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Class\\List_Model.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Class\\List_Model.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Class\\List_Model.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T08:09:22.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Items.cs",
+              "DocumentMoniker": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Class\\Items.cs",
+              "RelativeDocumentMoniker": "Robot_3_Axis_UI\\Class\\Items.cs",
+              "ToolTip": "D:\\OneDrive\\28. \u0110\u1EE9c RnD\\04.SHIV12\\01.Rotor\\03.Version1_CaiTien\\03.PC\\Robot_3_Axis_UI\\Robot_3_Axis_UI\\Class\\Items.cs",
+              "RelativeToolTip": "Robot_3_Axis_UI\\Class\\Items.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T08:09:22.608Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

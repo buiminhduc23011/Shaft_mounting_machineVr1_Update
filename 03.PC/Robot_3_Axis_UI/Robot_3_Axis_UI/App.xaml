@@ -1,0 +1,53 @@
+﻿<Application x:Class="Robot_3_Axis_UI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Robot_3_Axis_UI"
+             xmlns:System="clr-namespace:System;assembly=mscorlib"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:SystemWindowsInput="clr-namespace:System.Windows.Input;assembly=PresentationCore"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+
+
+                <ResourceDictionary Source="Style/Button_Style.xaml" />
+         
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/materialdesigncolor.teal.xaml" />
+
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/materialdesigntheme.button.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/materialdesigntheme.togglebutton.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/materialdesigntheme.textbox.xaml" />
+
+                <ResourceDictionary>
+                    <!--Màu của tôi-->
+                    <SolidColorBrush x:Key="BackgroundBrush"
+                                     Color="{StaticResource Primary100}" />
+                    <!--Màu của tôi-->
+
+                    <!--Các màu chủ đạo của gói material design-->
+                    <SolidColorBrush x:Key="PrimaryHueLightBrush"
+                                     Color="{StaticResource Primary100}" />
+                    <SolidColorBrush x:Key="PrimaryHueLightForegroundBrush"
+                                     Color="{StaticResource Primary100Foreground}" />
+                    <SolidColorBrush x:Key="PrimaryHueMidBrush"
+                                     Color="{StaticResource Primary500Foreground}" />
+                    <SolidColorBrush x:Key="PrimaryHueMidForegroundBrush"
+                                     Color="{StaticResource MaterialDesignShadow}" />
+                    <SolidColorBrush x:Key="PrimaryHueDarkBrush"
+                                     Color="{StaticResource Primary500Foreground}" />
+                    <SolidColorBrush x:Key="PrimaryHueDarkForegroundBrush"
+                                     Color="{StaticResource MaterialDesignShadow}" />
+                    <!--Các màu chủ đạo của gói material design-->
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+
+            <!--Cách app dụng style mặc định cho tất cả các Button trong ứng dụng-->
+            <Style BasedOn="{StaticResource MaterialDesignRaisedButton}"
+                   TargetType="{x:Type Button}" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

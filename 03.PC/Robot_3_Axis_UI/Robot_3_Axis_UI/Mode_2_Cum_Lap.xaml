@@ -1,0 +1,80 @@
+﻿<UserControl x:Class="Robot_3_Axis_UI.Mode_2_Cum_Lap"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Robot_3_Axis_UI"
+             mc:Ignorable="d"
+             Loaded="Mode_2_Cum_Lap_Screen_Loaded"
+             Unloaded="Mode_2_Cum_Lap_Screen_Unloaded"
+             d:DesignHeight="220"
+             d:DesignWidth="590">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content=""
+                   FontSize="20"
+                   FontStyle="Normal"
+                   FontWeight="Bold"
+                   FontFamily="Source Sans Pro"
+                   VerticalContentAlignment="Center"
+                   Margin="470,0,0,0"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+                    Margin="0,10,0,0">
+            <Button Margin="10,0,0,0"
+                    Content="Nâng"
+                    
+                    FontSize="20"
+                    Height="80"
+                    FontFamily="Source Sans Pro"
+                    FontWeight="Bold"
+                    Width="100"
+                  ></Button>
+            <Button Content="Up"
+                    Margin="15,0,0,0"
+                    x:Name="bt_Jog_Up"
+                    Width="220"
+                    Height="80"
+                    TouchLeave="bt_Jog_Up_TouchLeave"
+                    TouchUp="bt_Jog_Up_TouchUp"
+                    TouchDown="bt_Jog_Up_TouchDown"></Button>
+            <Button Content="Down"
+                    Margin="10,0,0,0"
+                    x:Name="bt_Jog_Down"
+                    Width="220"
+                    Height="80"
+                    TouchLeave="bt_Jog_Down_TouchLeave"
+                    TouchUp="bt_Jog_Down_TouchUp"
+                    TouchDown="bt_Jog_Down_TouchDown"></Button>
+
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+                    Margin="0,10,0,0">
+            <Button Margin="10,0,0,0"
+                    Content="Kẹp"
+                    FontSize="20"
+                    Height="80"
+                    FontFamily="Source Sans Pro"
+                    FontWeight="Bold"
+                    Width="100"
+                    ></Button>
+            <Button Content="Kẹp"
+                    Margin="15,0,0,0"
+                    x:Name="bt_Jog_Kep"
+                    Width="220"
+                    Height="80"
+                    TouchLeave="bt_Jog_Kep_TouchLeave"
+                    TouchUp="bt_Jog_Kep_TouchUp"
+                    TouchDown="bt_Jog_Kep_TouchDown"></Button>
+            <Button Content="Mở"
+                    Margin="10,0,0,0"
+                    x:Name="bt_Jog_Mo"
+                    Width="220"
+                    Height="80"
+                    TouchLeave="bt_Jog_Mo_TouchLeave"
+                    TouchUp="bt_Jog_Mo_TouchUp"
+                    TouchDown="bt_Jog_Mo_TouchDown"></Button>
+
+        </StackPanel>
+    </StackPanel>
+</UserControl>

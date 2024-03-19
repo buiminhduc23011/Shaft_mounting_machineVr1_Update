@@ -1,0 +1,8105 @@
+[
+  {
+    "Model": "V63L",
+    "Truc": "DHT573W-01",
+    "Roto": "MP257WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      29,
+      12
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.799988,
+      651.400085,
+      -238.5
+    ],
+    "Pos_Nhan_Truc": [
+      625.799988,
+      631.400085,
+      -214
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.7999992,
+      6
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V80",
+    "Truc": "DHT830W-01",
+    "Roto": "MP258WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      37.5,
+      14
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -305
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.200012,
+      649.800049,
+      -248
+    ],
+    "Pos_Nhan_Truc": [
+      626.200012,
+      664.800049,
+      -205.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      37.2999992,
+      12
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      304,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V90",
+    "Truc": "DHT869W-01",
+    "Roto": "MP259WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      37.5,
+      14
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -305
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.200012,
+      649.800049,
+      -248
+    ],
+    "Pos_Nhan_Truc": [
+      626.200012,
+      664.800049,
+      -205.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      37.2999992,
+      37.2999992
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      304,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63S",
+    "Truc": "DHT712W-01",
+    "Roto": "MP255WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      28.3999996,
+      12
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.700012,
+      650.800049,
+      -266
+    ],
+    "Pos_Nhan_Truc": [
+      626.700012,
+      630.800049,
+      -265
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.2000008,
+      5
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -302.5
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 100,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 1,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63M",
+    "Truc": "DHT723W-01",
+    "Roto": "MP256WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.700012,
+      51.7000504,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      28.3999996,
+      10
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      627.200012,
+      651.100098,
+      -248
+    ],
+    "Pos_Nhan_Truc": [
+      627.200012,
+      631.100098,
+      -255
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.2000008,
+      6
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -302.5
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63L",
+    "Truc": "DHT747W-01",
+    "Roto": "MP257WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      28.3999996,
+      12
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.700012,
+      648.800049,
+      -240
+    ],
+    "Pos_Nhan_Truc": [
+      625.700012,
+      628.800049,
+      -246
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.2000008,
+      6
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63M",
+    "Truc": "DJ069WW-01",
+    "Roto": "MP256WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.700012,
+      51.7000504,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      29,
+      12.5
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      627.10022,
+      651.600281,
+      -248
+    ],
+    "Pos_Nhan_Truc": [
+      627.10022,
+      631.600281,
+      -232.699997
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.7999992,
+      5
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63L",
+    "Truc": "DHT575W-01",
+    "Roto": "MP257WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      36,
+      10
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.200012,
+      650.800049,
+      -227
+    ],
+    "Pos_Nhan_Truc": [
+      626.200012,
+      630.800049,
+      -213.700012
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      35.7999992,
+      8
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 1,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63L",
+    "Truc": "DHT649W-01",
+    "Roto": "MP257WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      29,
+      8.5
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.200012,
+      651.150085,
+      -240
+    ],
+    "Pos_Nhan_Truc": [
+      625.200012,
+      631.150085,
+      -211.199997
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.6499996,
+      8.5
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      629.5,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63L",
+    "Truc": "DHT750W-01",
+    "Roto": "MP257WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      35.4000015,
+      9
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.200012,
+      650.650085,
+      -250
+    ],
+    "Pos_Nhan_Truc": [
+      626.200012,
+      630.650085,
+      -240
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      35.4000015,
+      7
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 1,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63M",
+    "Truc": "DJT089W-01",
+    "Roto": "MP256WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      21,
+      9
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.299988,
+      650.650085,
+      -239
+    ],
+    "Pos_Nhan_Truc": [
+      626.299988,
+      630.650085,
+      -239
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      21,
+      6
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 1,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63LS",
+    "Truc": "DJT089W-01",
+    "Roto": "MQ738WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      21,
+      9
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.200012,
+      650.650085,
+      -241
+    ],
+    "Pos_Nhan_Truc": [
+      626.400024,
+      630.400085,
+      -239
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      21,
+      6
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 1,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N125",
+    "Truc": "DL352WW-01",
+    "Roto": "MR977WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -285.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      38.5,
+      19
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -290
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.190002,
+      650.650085,
+      -205
+    ],
+    "Pos_Nhan_Truc": [
+      626.190002,
+      630.650085,
+      -195.600037
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      38.5,
+      15
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 1,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63L",
+    "Truc": "DHT590W-01",
+    "Roto": "MP257WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.199951,
+      50.7000008,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      29,
+      8.5
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.200012,
+      651.250061,
+      -237
+    ],
+    "Pos_Nhan_Truc": [
+      625.200012,
+      631.250061,
+      -211.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.6499996,
+      8.5
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63M",
+    "Truc": "DNT708W-01",
+    "Roto": "MP256WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      29,
+      10
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.889954,
+      650.01001,
+      -250
+    ],
+    "Pos_Nhan_Truc": [
+      626.200012,
+      635.050049,
+      -242
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.7999992,
+      7
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 1,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N137L",
+    "Truc": "DL417WW-01",
+    "Roto": "MR979WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      49.4000015,
+      32.5
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.690002,
+      649.650085,
+      -218
+    ],
+    "Pos_Nhan_Truc": [
+      625.690002,
+      629.650085,
+      -181
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      49.1500015,
+      24
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N137L",
+    "Truc": "DL421WW-01",
+    "Roto": "MR979WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      52,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      49.4000015,
+      20
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.200012,
+      650.650085,
+      -250
+    ],
+    "Pos_Nhan_Truc": [
+      626.200012,
+      630.650085,
+      -240
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      49.4000015,
+      20
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 1,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V80M",
+    "Truc": "DHT758W-01",
+    "Roto": "MP258WW-01",
+    "Temperature": 360,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      43.5,
+      12
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      627.090271,
+      650.65033,
+      -232
+    ],
+    "Pos_Nhan_Truc": [
+      627.090271,
+      630.65033,
+      -235.800018
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      43.2999992,
+      10
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V80M",
+    "Truc": "DHT539W-01",
+    "Roto": "MP258WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      37.5,
+      18
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.690125,
+      648.750122,
+      -214
+    ],
+    "Pos_Nhan_Truc": [
+      626.690125,
+      628.750122,
+      -195
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      37.2999992,
+      10
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V80S",
+    "Truc": "DJ003WW-01",
+    "Roto": "MP374WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      46.5,
+      18
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.48999,
+      649.250061,
+      -256
+    ],
+    "Pos_Nhan_Truc": [
+      626.48999,
+      629.250061,
+      -218
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      46.2999992,
+      11
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V80S",
+    "Truc": "DJ004WW-01",
+    "Roto": "MP374WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      46.5,
+      18
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.48999,
+      649.250061,
+      -256
+    ],
+    "Pos_Nhan_Truc": [
+      626.48999,
+      631.250061,
+      -212
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      46.2999992,
+      12
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N137L",
+    "Truc": "DL353WW-01",
+    "Roto": "MR979WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      37.9000015,
+      32
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.000061,
+      650.450134,
+      -189
+    ],
+    "Pos_Nhan_Truc": [
+      625.000061,
+      631.450134,
+      -175
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      37.6500015,
+      24
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63S",
+    "Truc": "DNT710W-01",
+    "Roto": "MP255WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      36,
+      12
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.200012,
+      649.900024,
+      -260
+    ],
+    "Pos_Nhan_Truc": [
+      627.200012,
+      621.900024,
+      -251
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      35.7999992,
+      6
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -302.5
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 100,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63M",
+    "Truc": "DHT557W-01",
+    "Roto": "MP256WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      29,
+      11
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.589966,
+      652.610046,
+      -249.5
+    ],
+    "Pos_Nhan_Truc": [
+      625.589966,
+      632.610046,
+      -225
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.7999992,
+      7
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63L",
+    "Truc": "DJ076WW-01",
+    "Roto": "MP257WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      29,
+      12.5
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.790039,
+      650.910095,
+      -239
+    ],
+    "Pos_Nhan_Truc": [
+      626.790039,
+      630.910095,
+      -222.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.7999992,
+      5
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V80S",
+    "Truc": "DJ008WW-01",
+    "Roto": "MP374WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      52.5,
+      18
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.48999,
+      649.250061,
+      -240
+    ],
+    "Pos_Nhan_Truc": [
+      626.48999,
+      629.250061,
+      -218.100006
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      52.2999992,
+      11
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V80M",
+    "Truc": "DJ002WW-01",
+    "Roto": "MP258WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      37.5,
+      18
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.690125,
+      648.750122,
+      -245
+    ],
+    "Pos_Nhan_Truc": [
+      626.690125,
+      628.750122,
+      -216.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      37.2999992,
+      10
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63M",
+    "Truc": "DNT877W-01",
+    "Roto": "MP256WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      36,
+      12
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.889954,
+      650.01001,
+      -255
+    ],
+    "Pos_Nhan_Truc": [
+      626.889954,
+      630.01001,
+      -225
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      35.7999992,
+      6
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63M",
+    "Truc": "DHT873W-01",
+    "Roto": "MP256WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      36,
+      12
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.889954,
+      649.409973,
+      -260
+    ],
+    "Pos_Nhan_Truc": [
+      626.889954,
+      629.409973,
+      -237
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      35.7999992,
+      6
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V80M",
+    "Truc": "DJ010WW-01",
+    "Roto": "MP258WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      43.5,
+      16
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.690125,
+      648.750122,
+      -231
+    ],
+    "Pos_Nhan_Truc": [
+      626.690125,
+      628.750122,
+      -210.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      43.2999992,
+      10
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N125L",
+    "Truc": "DL289WW-01",
+    "Roto": "MR977WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      38.5,
+      20
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.200012,
+      648.450195,
+      -196.5
+    ],
+    "Pos_Nhan_Truc": [
+      626.200012,
+      628.450195,
+      -190
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      38.2999992,
+      15
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 15,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V80M",
+    "Truc": "DJ008WW-01",
+    "Roto": "MP258WW-01",
+    "Temperature": 390,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      43.5,
+      14
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.190125,
+      648.750122,
+      -234
+    ],
+    "Pos_Nhan_Truc": [
+      626.190125,
+      628.750122,
+      -214
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      43.2999992,
+      10
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 10,
+    "Time_Blow": 40,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N137L",
+    "Truc": "DL418WW-01",
+    "Roto": "MR979WW-01",
+    "Temperature": 320,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      49.4000015,
+      30
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.30011,
+      648.450012,
+      -222
+    ],
+    "Pos_Nhan_Truc": [
+      626.80011,
+      628.649963,
+      -174.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      49.4000015,
+      23
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V80M",
+    "Truc": "DNT725W-01",
+    "Roto": "MP258WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      37.5,
+      14
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.590149,
+      648.950073,
+      -247.5
+    ],
+    "Pos_Nhan_Truc": [
+      625.590149,
+      628.950073,
+      -228
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      37.2999992,
+      8
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63L",
+    "Truc": "DNT712W-01",
+    "Roto": "MP257WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      29,
+      10
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.400146,
+      650.500122,
+      -243
+    ],
+    "Pos_Nhan_Truc": [
+      625.400146,
+      630.500122,
+      -232
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.6499996,
+      5
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -302.5
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63M",
+    "Truc": "DHT579W-01",
+    "Roto": "MP256WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.700012,
+      51.7000504,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      29,
+      10
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.200195,
+      651.500183,
+      -251
+    ],
+    "Pos_Nhan_Truc": [
+      626.200195,
+      631.500183,
+      -224.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.7999992,
+      5
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63L",
+    "Truc": "DNT713W-01",
+    "Roto": "MP257WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      36,
+      11
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.600098,
+      650.500122,
+      -251
+    ],
+    "Pos_Nhan_Truc": [
+      625.600098,
+      628.500122,
+      -232.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      35.6500015,
+      5
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -302.5
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V90L",
+    "Truc": "DJ020WW-01",
+    "Roto": "MP259WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      45,
+      22
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -305
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.900085,
+      649.800049,
+      -228
+    ],
+    "Pos_Nhan_Truc": [
+      625.900085,
+      629.800049,
+      -189
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      44.7999992,
+      18
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      304,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N125L",
+    "Truc": "DL245WW-01",
+    "Roto": "MR977WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      38.5,
+      23
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.700012,
+      649.450195,
+      -198
+    ],
+    "Pos_Nhan_Truc": [
+      625.700012,
+      629.450195,
+      -186.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      38.1500015,
+      16
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63M",
+    "Truc": "DHT560W-01",
+    "Roto": "MP256WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -235
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -235
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -235
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -235
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -235
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -235
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.700012,
+      51.7000504,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      36,
+      12
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.600159,
+      649.800232,
+      -255
+    ],
+    "Pos_Nhan_Truc": [
+      626.600159,
+      629.800232,
+      -225.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      35.7999992,
+      6
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N125L",
+    "Truc": "DL248WW-01",
+    "Roto": "MR977WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      38.5,
+      23
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.600037,
+      649.550171,
+      -197
+    ],
+    "Pos_Nhan_Truc": [
+      625.600037,
+      629.550171,
+      -176
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      38.1500015,
+      15.5
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V80M",
+    "Truc": "DHT822W-01",
+    "Roto": "MP258WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      43.5,
+      14
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.890198,
+      651.450073,
+      -231
+    ],
+    "Pos_Nhan_Truc": [
+      625.890198,
+      631.450073,
+      -224
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      43.2000008,
+      11
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V80M",
+    "Truc": "DJT011W-01",
+    "Roto": "MP258WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -236
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -236
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -236
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -236
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -236
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -236
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      37.5,
+      14
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.190002,
+      649.250122,
+      -208
+    ],
+    "Pos_Nhan_Truc": [
+      626.190002,
+      629.250122,
+      -208
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      37.2999992,
+      10
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N125L",
+    "Truc": "DL475WW-01",
+    "Roto": "MR977WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      47,
+      23
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.400085,
+      649.950073,
+      -225
+    ],
+    "Pos_Nhan_Truc": [
+      625.400085,
+      629.950073,
+      -176
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      46.6500015,
+      17
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V80S",
+    "Truc": "DHT539W-01",
+    "Roto": "MP374WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      46.5,
+      15
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.390015,
+      649.450012,
+      -224
+    ],
+    "Pos_Nhan_Truc": [
+      626.390015,
+      629.450012,
+      -199.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      46.2000008,
+      11
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N125L",
+    "Truc": "DL288WW-01",
+    "Roto": "MR977WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      38.5,
+      23
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.300049,
+      649.450256,
+      -200
+    ],
+    "Pos_Nhan_Truc": [
+      626.300049,
+      629.450256,
+      -186
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      38.2000008,
+      16
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N125L",
+    "Truc": "DL413WW-01",
+    "Roto": "MR977WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      632,
+      52,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      47,
+      20
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      624.600159,
+      651.35022,
+      -223
+    ],
+    "Pos_Nhan_Truc": [
+      624.600159,
+      631.35022,
+      -185.100006
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      46.6500015,
+      20
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63L",
+    "Truc": "DNT908W-01",
+    "Roto": "MP257WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      29,
+      11
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.500122,
+      650.700073,
+      -239.5
+    ],
+    "Pos_Nhan_Truc": [
+      625.600098,
+      628.500122,
+      -232.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.6499996,
+      6
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -302.5
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N125L",
+    "Truc": "DL562WW-01",
+    "Roto": "MR977WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      38.5,
+      22
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.400085,
+      650.349976,
+      -198
+    ],
+    "Pos_Nhan_Truc": [
+      625.400085,
+      630.349976,
+      -216
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      38.1500015,
+      17
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N125L",
+    "Truc": "DL287WW-01",
+    "Roto": "MR977WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      38.5,
+      22
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.299988,
+      649.950073,
+      -203
+    ],
+    "Pos_Nhan_Truc": [
+      625.299988,
+      629.950073,
+      -193.200012
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      38.1500015,
+      17
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63L",
+    "Truc": "DNT918W-01",
+    "Roto": "MP257WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      29,
+      11
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.500122,
+      650.700073,
+      -239.5
+    ],
+    "Pos_Nhan_Truc": [
+      625.500122,
+      630.700073,
+      -229
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.6499996,
+      6
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -302.5
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N125L",
+    "Truc": "DL249WW-01",
+    "Roto": "MR977WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      38.5,
+      22
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.500061,
+      649.750122,
+      -202
+    ],
+    "Pos_Nhan_Truc": [
+      625.500061,
+      629.750122,
+      -174.200012
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      38.1500015,
+      16
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N137L",
+    "Truc": "DL293WW-01",
+    "Roto": "MR979WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      685.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      684.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      37.9000015,
+      32.5
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.600037,
+      649.000061,
+      -190
+    ],
+    "Pos_Nhan_Truc": [
+      625.600037,
+      631.300049,
+      -173.599976
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      37.6500015,
+      24
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 25,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N137L",
+    "Truc": "DL419WW-01",
+    "Roto": "MR979WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      685.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      684.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633,
+      52,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      49.4000015,
+      32
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.500305,
+      651.549866,
+      -217.5
+    ],
+    "Pos_Nhan_Truc": [
+      625.500305,
+      631.549866,
+      -177
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      49.25,
+      24
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      629,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 25,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63M",
+    "Truc": "DHT989W-01",
+    "Roto": "MP256WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -235
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -235
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -235
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -235
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -235
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -235
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.700012,
+      51.7000504,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      36,
+      10
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      627.100159,
+      651.300232,
+      -260
+    ],
+    "Pos_Nhan_Truc": [
+      627.100159,
+      631.300232,
+      -222.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      35.6500015,
+      6
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63L",
+    "Truc": "DHT878W-01",
+    "Roto": "MP257WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      36,
+      10
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.700012,
+      651.800049,
+      -251
+    ],
+    "Pos_Nhan_Truc": [
+      625.700012,
+      631.800049,
+      -224.899994
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      35.6500015,
+      7
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63L",
+    "Truc": "DHT889W-01",
+    "Roto": "MP257WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      29,
+      10
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.700012,
+      651.800049,
+      -237
+    ],
+    "Pos_Nhan_Truc": [
+      625.700012,
+      631.800049,
+      -211.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.75,
+      7
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N125L",
+    "Truc": "DL476WW-01",
+    "Roto": "MR977WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      52,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      47,
+      22
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.799988,
+      651.950073,
+      -224
+    ],
+    "Pos_Nhan_Truc": [
+      625.799988,
+      631.950073,
+      -173.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      46.7000008,
+      17
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 25,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N125L",
+    "Truc": "DL246WW-01",
+    "Roto": "MR977WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      52,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      38.5,
+      22
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.999939,
+      651.950073,
+      -197.5
+    ],
+    "Pos_Nhan_Truc": [
+      625.999939,
+      631.950073,
+      -174.500031
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      38.2000008,
+      17
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 25,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N137L",
+    "Truc": "DL294WW-01",
+    "Roto": "MR979WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      685.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      684.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      37.9000015,
+      32.5
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.900085,
+      649.300049,
+      -189
+    ],
+    "Pos_Nhan_Truc": [
+      625.600037,
+      631.300049,
+      -173.599976
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      37.6500015,
+      24
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 25,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63L",
+    "Truc": "DJT003W-01",
+    "Roto": "MP257WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      29,
+      12
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.789978,
+      651.209961,
+      -238.5
+    ],
+    "Pos_Nhan_Truc": [
+      625.789978,
+      631.209961,
+      -213
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.7999992,
+      5
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63S",
+    "Truc": "DHT578W-01",
+    "Roto": "MP255WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -230
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -230
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -230
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -230
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -230
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -230
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      29,
+      12
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626,
+      651.400085,
+      -255
+    ],
+    "Pos_Nhan_Truc": [
+      626,
+      631.400085,
+      -233
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.7999992,
+      5
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      308,
+      -302.5
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 100,
+    "Time_Blow": 30,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N137L",
+    "Truc": "DL621WW-01",
+    "Roto": "MR979WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      685.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      684.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633,
+      52,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      49.4000015,
+      32
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.200073,
+      651.300049,
+      -218
+    ],
+    "Pos_Nhan_Truc": [
+      625.200073,
+      631.300049,
+      -174.199982
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      49.1500015,
+      25
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 25,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N137L",
+    "Truc": "DL564WW-01",
+    "Roto": "MR979WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      685.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      684.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633,
+      52,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      37.9000015,
+      32
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.200073,
+      651.100037,
+      -190
+    ],
+    "Pos_Nhan_Truc": [
+      625.200073,
+      631.100037,
+      -204
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      37.6500015,
+      25
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 25,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N137S",
+    "Truc": "DL293WW-01",
+    "Roto": "MR978WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      685.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      684.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633,
+      52,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      48.9000015,
+      32
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.600037,
+      651.300049,
+      -203.5
+    ],
+    "Pos_Nhan_Truc": [
+      625.600037,
+      631.300049,
+      -179
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      48.6500015,
+      24
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 25,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N137S",
+    "Truc": "DL294WW-01",
+    "Roto": "MR978WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      685.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      684.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633,
+      52,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      48.9000015,
+      32.5
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.600037,
+      651.300049,
+      -203.5
+    ],
+    "Pos_Nhan_Truc": [
+      625.600037,
+      631.300049,
+      -182.399994
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      48.6500015,
+      24
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 25,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V80M",
+    "Truc": "DJ003WW-01",
+    "Roto": "MP258WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50.5,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      37.5,
+      15
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      625.790222,
+      651.250122,
+      -248
+    ],
+    "Pos_Nhan_Truc": [
+      625.790222,
+      631.250122,
+      -213.100006
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      37.25,
+      10
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63M",
+    "Truc": "DHT877W-01",
+    "Roto": "MP256WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -235
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -235
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -235
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -235
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -235
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -235
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.700012,
+      51.7000504,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      36,
+      10
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.000183,
+      651.400208,
+      -252
+    ],
+    "Pos_Nhan_Truc": [
+      626.000183,
+      631.400208,
+      -241.600006
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      35.75,
+      6
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      308,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63M",
+    "Truc": "DJ073WW-01",
+    "Roto": "MP256WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.700012,
+      51.7000504,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      36,
+      10
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.000183,
+      651.700134,
+      -261
+    ],
+    "Pos_Nhan_Truc": [
+      626.000183,
+      631.700134,
+      -232.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      35.75,
+      5
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63L",
+    "Truc": "DJ077WW-01",
+    "Roto": "MP257WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.700012,
+      51.7000504,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      29,
+      12.5
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.700195,
+      650.600281,
+      -238.5
+    ],
+    "Pos_Nhan_Truc": [
+      626.700195,
+      630.600281,
+      -220.5
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.7999992,
+      5
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "N125L",
+    "Truc": "DL412WW-01",
+    "Roto": "MR977WW-01",
+    "Temperature": 350,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.5,
+      50,
+      -300.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      47,
+      23
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.100159,
+      649.35022,
+      -224
+    ],
+    "Pos_Nhan_Truc": [
+      626.100159,
+      629.35022,
+      -193
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      46.6500015,
+      16
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 6
+  },
+  {
+    "Model": "V63L",
+    "Truc": "DJ078WW-01",
+    "Roto": "MP257WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.700012,
+      51.7000504,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      29,
+      12.5
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.700195,
+      650.600281,
+      -239
+    ],
+    "Pos_Nhan_Truc": [
+      626.700195,
+      630.600281,
+      -213
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.7999992,
+      5
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 0
+  },
+  {
+    "Model": "V63L",
+    "Truc": "DHT712WW-01",
+    "Roto": "MP257WW-01",
+    "Temperature": 380,
+    "Pos_Roto1": [
+      -84,
+      27,
+      -307
+    ],
+    "Pos_Roto2": [
+      30,
+      27,
+      -307
+    ],
+    "Pos_Roto3": [
+      -85,
+      344,
+      -307
+    ],
+    "Pos_Roto4": [
+      29.5,
+      344,
+      -307
+    ],
+    "Pos_Roto5": [
+      -84.5,
+      186.100006,
+      -307
+    ],
+    "Pos_Roto6": [
+      -87.5,
+      682.5,
+      -307
+    ],
+    "Pos_Roto7": [
+      25.5,
+      683.5,
+      -307
+    ],
+    "Pos_Truc1": [
+      147,
+      -26,
+      -242
+    ],
+    "Pos_Truc2": [
+      147,
+      110,
+      -242
+    ],
+    "Pos_Truc3": [
+      144,
+      260,
+      -242
+    ],
+    "Pos_Truc4": [
+      144,
+      395,
+      -242
+    ],
+    "Pos_Truc5": [
+      35,
+      184.5,
+      -242
+    ],
+    "Pos_Truc6": [
+      141,
+      633,
+      -242
+    ],
+    "Pos_Tha_Cum_Ktr": [
+      633.700012,
+      51.7000504,
+      -296.5
+    ],
+    "Pos_Nang_Kep_Cum_Ktr": [
+      29,
+      12.5
+    ],
+    "Pos_Gap_Cum_Lap": [
+      626.700012,
+      649.800049,
+      -306
+    ],
+    "Pos_Lap_Cum_Lap": [
+      626.799988,
+      650.799988,
+      -238.5
+    ],
+    "Pos_Nhan_Truc": [
+      626.700195,
+      630.600281,
+      -232
+    ],
+    "Pos_Nang_Kep_Cum_Lap": [
+      28.7999992,
+      5
+    ],
+    "Pos_Tha_Ban_Xoay": [
+      630.5,
+      306,
+      -303
+    ],
+    "Offset_Tha_Roto": 0,
+    "Cong_Suat_Nung": 30,
+    "Time_Blow": 20,
+    "Temperature_LamMat": 0,
+    "Z_Safety": 0,
+    "Pos_LapTruc": 0,
+    "LoaiTruc": 5
+  }
+]
